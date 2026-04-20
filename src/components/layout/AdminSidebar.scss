@@ -1,0 +1,124 @@
+.admin-sidebar {
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  
+  .logo-container {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #002140;
+    transition: background-color 0.3s ease;
+  }
+  
+  .collapse-button {
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.65);
+    transition: color 0.3s;
+    
+    &:hover {
+      color: #fff;
+    }
+  }
+  
+  .admin-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    
+    .ant-avatar {
+      margin-bottom: 8px;
+    }
+    
+    .admin-details {
+      text-align: center;
+      
+      .admin-name {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      
+      .admin-role {
+        font-size: 12px;
+        opacity: 0.7;
+      }
+    }
+  }
+  
+  .sidebar-bottom {
+    margin-top: auto;
+    padding: 16px;
+    
+    .back-to-site-btn {
+      margin-bottom: 8px;
+    }
+    
+    .logout-btn {
+      background-color: #f5222d;
+      border-color: #f5222d;
+    }
+  }
+}
+
+/* Dark mode styles for admin sidebar */
+body.dark-mode {
+  .admin-sidebar {
+    .logo-container {
+      background-color: #000000;
+      color: #ffffff;
+    }
+    
+    .ant-menu.ant-menu-dark {
+      background-color: #141414;
+      
+      .ant-menu-item-selected {
+        background-color: #79eac0;
+        color: #000000;
+        
+        a {
+          color: #000000;
+        }
+      }
+    }
+    
+    .admin-info {
+      color: #e0e0e0;
+      
+      .admin-role {
+        color: #a0a0a0;
+      }
+    }
+    
+    .sidebar-bottom {
+      .back-to-site-btn {
+        background-color: #79eac0;
+        border-color: #79eac0;
+        color: #000000;
+        
+        &:hover {
+          background-color: #52c49c;
+          border-color: #52c49c;
+        }
+      }
+      
+      .logout-btn {
+        background-color: #ff4d4f;
+        border-color: #ff4d4f;
+        
+        &:hover {
+          background-color: #ff7875;
+          border-color: #ff7875;
+        }
+      }
+    }
+  }
+}

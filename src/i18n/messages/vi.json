@@ -1,0 +1,1893 @@
+{
+    "navigation": {
+        "review": {
+            "title": "Đánh giá sản phẩm",
+            "submit": "Gửi đánh giá",
+            "paginationInfo": "{{from}}-{{to}} của {{total}} sản phẩm",
+            "totalProducts": "{{total}} sản phẩm",
+            "thankYou": "Cảm ơn bạn đã đánh giá sản phẩm!",
+            "error": "Có lỗi xảy ra",
+            "submitFailed": "Bạn không thể đánh giá khi chưa sử dụng sản phẩm này.",
+            "ratingRequired": "Vui lòng chọn số sao",
+            "pleaseRate": "Bạn cần chọn số sao để đánh giá.",
+            "commentPlaceholder": "Nhập nhận xét về sản phẩm..."
+        },
+        "cart": {
+            "noReviews": "Chưa có đánh giá nào cho sản phẩm này."
+        },
+        "auth": {
+            "loginTitle": "Đăng nhập để đánh giá sản phẩm"
+        },
+        "home": "Trang chủ",
+        "tours": "Tour du lịch",
+        "about": "Giới thiệu",
+        "services": "Dịch vụ",
+        "support": "Hỗ trợ",
+        "jobs": "Sự nghiệp",
+        "login": "Đăng nhập",
+        "register": "Đăng ký",
+        "bookings": "Đặt tour",
+        "activities": "Hoạt động",
+        "shop": "Sản phẩm lưu niệm",
+        "shops": "Cửa hàng lưu niệm",
+        "blog": "Blog",
+        "contact": "Liên hệ"
+    },
+    "admin": {
+        "sidebar": {
+            "dashboard": "Bảng điều khiển",
+            "users": "Quản lý người dùng",
+            "orders": "Quản lý đơn hàng",
+            "tours": "Quản lý tour",
+            "blogs": "Quản lý bài viết",
+            "cvManagement": "Quản lý CV",
+            "supportTickets": "Hỗ trợ khách hàng",
+            "myInfo": "Thông tin cá nhân",
+            "shopRegistrations": "Quản lý đăng ký shop"
+        },
+        "users": {
+            "title": "Quản lý người dùng",
+            "searchPlaceholder": "Tìm kiếm theo tên, email, số điện thoại",
+            "columns": {
+                "id": "ID",
+                "name": "Tên",
+                "email": "Email",
+                "phone": "Số điện thoại",
+                "role": "Vai trò",
+                "status": "Trạng thái",
+                "actions": "Thao tác"
+            },
+            "status": {
+                "active": "Hoạt động",
+                "inactive": "Không hoạt động"
+            },
+            "filters": {
+                "all": "Tất cả người dùng",
+                "filter": "Lọc"
+            },
+            "actions": {
+                "add": "Thêm người dùng",
+                "edit": "Sửa",
+                "delete": "Xóa",
+                "activate": "Kích hoạt",
+                "deactivate": "Vô hiệu hóa"
+            },
+            "modal": {
+                "add": "Thêm người dùng mới",
+                "edit": "Sửa người dùng",
+                "view": "Thông tin người dùng"
+            },
+            "validation": {
+                "roleRequired": "Vui lòng chọn vai trò",
+                "statusRequired": "Vui lòng chọn trạng thái"
+            },
+            "confirmations": {
+                "delete": {
+                    "title": "Xác nhận xóa",
+                    "content": "Bạn có chắc chắn muốn xóa người dùng \"{name}\" không?"
+                },
+                "activate": {
+                    "title": "Xác nhận kích hoạt",
+                    "content": "Bạn có chắc chắn muốn kích hoạt người dùng này không?"
+                },
+                "deactivate": {
+                    "title": "Xác nhận vô hiệu hóa",
+                    "content": "Bạn có chắc chắn muốn vô hiệu hóa người dùng này không?"
+                }
+            },
+            "messages": {
+                "success": {
+                    "created": "Tạo người dùng thành công",
+                    "updated": "Cập nhật người dùng thành công",
+                    "deleted": "Xóa người dùng thành công",
+                    "activated": "Kích hoạt người dùng thành công",
+                    "deactivated": "Vô hiệu hóa người dùng thành công"
+                },
+                "error": {
+                    "loading": "Không thể tải danh sách người dùng. Vui lòng thử lại sau.",
+                    "create": "Không thể tạo người dùng. Vui lòng thử lại sau.",
+                    "update": "Không thể cập nhật người dùng. Vui lòng thử lại sau.",
+                    "delete": "Không thể xóa người dùng. Vui lòng thử lại sau.",
+                    "activate": "Không thể kích hoạt người dùng. Vui lòng thử lại sau.",
+                    "deactivate": "Không thể vô hiệu hóa người dùng. Vui lòng thử lại sau.",
+                    "auth": "Bạn cần đăng nhập để truy cập trang này",
+                    "permission": "Bạn không có quyền truy cập trang này",
+                    "invalidUser": "Thông tin người dùng không hợp lệ"
+                }
+            },
+            "pagination": {
+                "of": "của",
+                "items": "mục"
+            }
+        },
+        "cvManagement": {
+            "title": "Quản lý CV ứng tuyển",
+            "searchPlaceholder": "Tìm kiếm theo email",
+            "columns": {
+                "index": "STT",
+                "email": "Email",
+                "submitDate": "Ngày nộp",
+                "attachment": "File đính kèm",
+                "status": "Trạng thái",
+                "actions": "Thao tác"
+            },
+            "status": {
+                "pending": "Đang xử lý",
+                "approved": "Đã duyệt",
+                "rejected": "Từ chối"
+            },
+            "actions": {
+                "approve": "Duyệt",
+                "reject": "Từ chối",
+                "delete": "Xóa",
+                "viewCV": "Xem CV"
+            },
+            "confirmations": {
+                "approve": {
+                    "title": "Xác nhận duyệt CV",
+                    "content": "Bạn có chắc chắn muốn duyệt CV này không?"
+                },
+                "reject": {
+                    "title": "Từ chối CV",
+                    "content": "Vui lòng cung cấp lý do từ chối",
+                    "label": "Lý do từ chối",
+                    "placeholder": "Nhập lý do từ chối...",
+                    "required": "Vui lòng nhập lý do từ chối",
+                    "minLength": "Lý do từ chối phải ít nhất 10 ký tự"
+                },
+                "delete": {
+                    "title": "Xác nhận xóa",
+                    "content": "Bạn có chắc chắn muốn xóa CV này không?"
+                }
+            },
+            "messages": {
+                "success": {
+                    "approved": "CV đã được duyệt",
+                    "rejected": "CV đã bị từ chối",
+                    "deleted": "CV đã được xóa"
+                },
+                "error": {
+                    "loading": "Không thể tải danh sách CV. Vui lòng thử lại sau.",
+                    "approve": "Không thể duyệt CV. Vui lòng thử lại sau.",
+                    "reject": "Không thể từ chối CV. Vui lòng thử lại sau.",
+                    "delete": "Không thể xóa CV. Vui lòng thử lại sau.",
+                    "auth": "Vui lòng đăng nhập để tiếp tục"
+                }
+            }
+        },
+        "supportTickets": {
+            "title": "Quản lý hỗ trợ khách hàng",
+            "subtitle": "Quản lý và phản hồi các yêu cầu hỗ trợ từ người dùng",
+            "searchPlaceholder": "Tìm kiếm theo tiêu đề, nội dung, email hoặc tên",
+            "filterByStatus": "Lọc theo trạng thái",
+            "columns": {
+                "title": "Tiêu đề",
+                "user": "Người dùng",
+                "date": "Ngày tạo",
+                "status": "Trạng thái",
+                "hasAttachment": "Tệp đính kèm",
+                "actions": "Thao tác"
+            },
+            "actions": {
+                "view": "Xem",
+                "respond": "Phản hồi"
+            },
+            "viewTicket": "Xem chi tiết yêu cầu",
+            "respondToTicket": "Phản hồi yêu cầu",
+            "submittedBy": "Gửi bởi",
+            "dateSubmitted": "Ngày gửi",
+            "status": "Trạng thái",
+            "message": "Nội dung",
+            "response": "Phản hồi",
+            "updateStatus": "Cập nhật trạng thái",
+            "markInProgress": "Đang xử lý",
+            "markClosed": "Đóng ticket",
+            "markOpen": "Mở lại ticket",
+            "yourResponse": "Phản hồi của bạn",
+            "responseHint": "Nhập phản hồi của bạn cho yêu cầu này...",
+            "downloadAttachment": "Tải tệp đính kèm",
+            "viewAttachment": "Xem tệp đính kèm",
+            "responseSuccess": "Phản hồi đã được gửi thành công",
+            "statusUpdateSuccess": "Trạng thái ticket đã được cập nhật thành {{status}}",
+            "errors": {
+                "fetchFailed": "Không thể tải danh sách ticket",
+                "statusUpdateFailed": "Không thể cập nhật trạng thái ticket",
+                "responseFailed": "Không thể gửi phản hồi"
+            }
+        },
+        "shopManagement": {
+            "title": "Quản lý đăng ký shop",
+            "searchPlaceholder": "Tìm kiếm theo tên shop",
+            "columns": {
+                "index": "STT",
+                "shopName": "Tên shop",
+                "ownerEmail": "Email chủ shop",
+                "submitDate": "Ngày đăng ký",
+                "status": "Trạng thái",
+                "actions": "Thao tác"
+            },
+            "status": {
+                "pending": "Đang xử lý",
+                "approved": "Đã duyệt",
+                "rejected": "Từ chối"
+            },
+            "actions": {
+                "approve": "Duyệt",
+                "reject": "Từ chối"
+            },
+            "confirmations": {
+                "approve": {
+                    "title": "Xác nhận duyệt shop",
+                    "content": "Bạn có chắc chắn muốn duyệt shop này không?"
+                },
+                "reject": {
+                    "title": "Từ chối shop",
+                    "label": "Lý do từ chối",
+                    "placeholder": "Nhập lý do từ chối...",
+                    "required": "Vui lòng nhập lý do từ chối"
+                }
+            },
+            "messages": {
+                "success": {
+                    "approved": "Shop đã được duyệt",
+                    "rejected": "Shop đã bị từ chối"
+                },
+                "error": {
+                    "approve": "Không thể duyệt shop. Vui lòng thử lại sau.",
+                    "reject": "Không thể từ chối shop. Vui lòng thử lại sau.",
+                    "auth": "Vui lòng đăng nhập để tiếp tục"
+                }
+            }
+        },
+        "registerHistory": {
+            "title": "Lịch sử đăng ký",
+            "stt": "STT",
+            "type": "Loại đăng ký",
+            "shop": "Đăng ký Shop",
+            "tourGuide": "Đăng ký Hướng dẫn viên",
+            "submittedAt": "Ngày gửi",
+            "status": "Trạng thái",
+            "status_approved": "Đã duyệt",
+            "status_pending": "Đang chờ",
+            "status_rejected": "Từ chối",
+            "response": "Phản hồi"
+        }
+    },
+    "tours": {
+        "route": "{{from}} → {{to}}",
+        "reviewCount": "({{count}} đánh giá)",
+        "minCapacityPlaceholder": "Số người tối thiểu",
+        "unitPerson": "người",
+        "earlyBirdTooltip": "Giảm {{percent}}% cho khách đặt sớm",
+        "earlyBirdTag": "Early Bird -{{percent}}%",
+        "earlyBirdCountdownTooltip": "Số ngày còn lại để được giảm giá Early Bird",
+        "earlyBirdCountdown": "Còn {{days}} ngày",
+        "regularPrice": "Giá thường",
+        "perGuest": "/ khách",
+        "totalForGuests": "Tổng cho {{count}} khách",
+        "saving": "Tiết kiệm {{amount}}₫",
+        "bookNow": "Đặt ngay",
+        "viewDetails": "Xem chi tiết",
+        "status": {
+            "public": "Đang mở bán",
+            "waitToPublic": "Sắp mở bán",
+            "approved": "Đã duyệt",
+            "awaitingGuide": "Chờ phân công HDV",
+            "notReady": "Chưa sẵn sàng"
+        },
+        "contactForPrice": "Liên hệ",
+        "seatsLeft": "chỗ trống",
+        "imageCount": "ảnh",
+        "filters": "Bộ lọc",
+        "destinations": "Điểm đến",
+        "priceRange": "Khoảng giá",
+        "availableOnly": "Chỉ hiển thị tour có sẵn",
+        "minRating": "Đánh giá tối thiểu",
+        "minCapacity": "Sức chứa tối thiểu",
+        "days": "ngày",
+        "flexible": "Linh hoạt",
+        "maxParticipants": "Số người tối đa",
+        "startDate": "Ngày khởi hành",
+        "person": "người",
+        "unavailable": "Không khả dụng"
+    },
+    "thingsToDo": {
+        "pageTitle": "Khám phá Tây Ninh",
+        "pageSubtitle": "Trải nghiệm những hoạt động thú vị và địa điểm tham quan hấp dẫn",
+        "location": "Địa điểm",
+        "duration": "Thời gian",
+        "price": "Giá",
+        "rating": "Đánh giá",
+        "viewDetails": "Xem chi tiết",
+        "noToursFound": "Không tìm thấy tour nào phù hợp với tiêu chí tìm kiếm"
+    },
+    "thingsToDoDetail": {
+        "tourNotFound": "Không tìm thấy tour",
+        "tourNotExist": "Tour này không tồn tại hoặc đã bị xóa",
+        "back": "Quay lại",
+        "home": "Trang Chủ",
+        "activities": "Hoạt Động",
+        "highlights": "Điểm nổi bật",
+        "tourDetails": "Chi tiết tour",
+        "includedServices": "Dịch vụ bao gồm",
+        "excludedServices": "Dịch vụ không bao gồm",
+        "reviews": "Đánh giá",
+        "writeReview": "Viết đánh giá",
+        "bookNow": "Đặt ngay",
+        "favorite": "Yêu thích",
+        "share": "Chia sẻ",
+        "participationDate": "Ngày tham gia",
+        "numberOfParticipants": "Số người tham gia",
+        "pleaseSelectDate": "Vui lòng chọn ngày",
+        "pleaseEnterParticipants": "Vui lòng nhập số người",
+        "chooseDate": "Chọn ngày",
+        "maximumPeople": "Số người tối đa",
+        "peoplePerTour": "người/tour",
+        "freeCancellation": "Hủy miễn phí",
+        "beforeDays": "Trước 3 ngày",
+        "needHelp": "Cần hỗ trợ?",
+        "contactSupport": "Liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi nào về tour này",
+        "contactSupportButton": "Liên hệ hỗ trợ",
+        "loginRequired": "Yêu cầu đăng nhập",
+        "loginRequiredMessage": "Vui lòng đăng nhập để đặt tour này.",
+        "bookingConfirmation": "Xác nhận đặt tour",
+        "redirectingToBooking": "Bạn sẽ được chuyển đến trang đặt tour.",
+        "continueToBooking": "Bạn có thể tiếp tục đặt tour ngay bây giờ."
+    },
+    "jobs": {
+        "title": "Cơ hội sự nghiệp",
+        "subtitle": "Trở thành Hướng dẫn viên du lịch tại Tây Ninh",
+        "jobInfo": {
+            "title": "Thông tin tuyển dụng",
+            "description": "Bạn đam mê du lịch và muốn giới thiệu vẻ đẹp của Tây Ninh đến với du khách? Chúng tôi đang tìm kiếm những hướng dẫn viên nhiệt huyết để tham gia vào đội ngũ của Vi Vu Tour.",
+            "jobDescription": "Mô tả công việc",
+            "duties": [
+                "Dẫn đoàn khách tham quan các điểm du lịch tại Tây Ninh",
+                "Giới thiệu về lịch sử, văn hóa và đặc sản địa phương",
+                "Hỗ trợ khách hàng trong suốt hành trình",
+                "Đảm bảo an toàn và trải nghiệm tốt nhất cho du khách",
+                "Làm việc linh hoạt theo lịch tour"
+            ],
+            "benefits": "Quyền lợi",
+            "benefitsList": [
+                "Thu nhập hấp dẫn (thỏa thuận dựa trên kinh nghiệm)",
+                "Cơ hội gặp gỡ và giao lưu với du khách trong và ngoài nước",
+                "Môi trường làm việc chuyên nghiệp, năng động",
+                "Được đào tạo và phát triển kỹ năng chuyên môn",
+                "Cơ hội khám phá các điểm du lịch mới"
+            ],
+            "requirements": "Yêu cầu"
+        },
+        "requirements": {
+            "communication": {
+                "title": "Kỹ năng giao tiếp tốt",
+                "content": "Có khả năng giao tiếp rõ ràng, tự tin và thân thiện với du khách."
+            },
+            "localKnowledge": {
+                "title": "Hiểu biết về địa phương",
+                "content": "Có kiến thức sâu rộng về lịch sử, văn hóa và địa điểm du lịch tại Tây Ninh."
+            },
+            "languages": {
+                "title": "Ngoại ngữ",
+                "content": "Ưu tiên ứng viên có khả năng giao tiếp bằng tiếng Anh hoặc các ngoại ngữ khác."
+            },
+            "certification": {
+                "title": "Chứng chỉ hướng dẫn viên",
+                "content": "Có chứng chỉ hướng dẫn viên du lịch là một lợi thế (không bắt buộc)."
+            }
+        },
+        "applicationForm": {
+            "title": "Đăng ký Hướng dẫn viên",
+            "description": "Điền thông tin bên dưới để ứng tuyển vị trí Hướng dẫn viên tại Vi Vu Tour.",
+            "fullName": "Họ và tên",
+            "fullNameRequired": "Vui lòng nhập họ và tên",
+            "fullNamePlaceholder": "Nhập họ và tên",
+            "phone": "Số điện thoại",
+            "phoneRequired": "Vui lòng nhập số điện thoại",
+            "phoneInvalid": "Số điện thoại không hợp lệ",
+            "phonePlaceholder": "Nhập số điện thoại",
+            "email": "Email",
+            "emailRequired": "Vui lòng nhập email",
+            "emailInvalid": "Email không hợp lệ",
+            "emailPlaceholder": "Nhập email",
+            "experience": "Kinh nghiệm",
+            "experienceRequired": "Vui lòng nhập kinh nghiệm",
+            "experiencePlaceholder": "Mô tả kinh nghiệm du lịch, hướng dẫn viên (nếu có)",
+            "skills": "Kỹ năng hướng dẫn viên",
+            "skillsRequired": "Vui lòng chọn ít nhất 1 kỹ năng",
+            "skillsPlaceholder": "Chọn kỹ năng phù hợp",
+            "cv": "CV (Sơ yếu lý lịch)",
+            "cvRequired": "Vui lòng tải lên CV",
+            "selectFile": "Chọn tệp",
+            "fileHint": "Chỉ chấp nhận file PDF, DOC, DOCX. Dung lượng tối đa 5MB.",
+            "submit": "Gửi đăng ký",
+            "success": "Gửi đơn ứng tuyển thành công!",
+            "error": "Có lỗi xảy ra khi gửi đơn ứng tuyển. Vui lòng thử lại sau.",
+            "fail": "Gửi đơn ứng tuyển thất bại. Vui lòng kiểm tra lại thông tin.",
+            "experienceMinLength": "Kinh nghiệm phải ít nhất 10 ký tự",
+            "loginRequired": "Vui lòng đăng nhập để gửi đơn ứng tuyển.",
+            "submissionSuccessTitle": "Đơn ứng tuyển đã được gửi thành công",
+            "submissionSuccessContent": "Cảm ơn bạn đã ứng tuyển! Chúng tôi đã nhận được đơn của bạn và sẽ xem xét trong thời gian sớm nhất. Nếu bạn phù hợp với yêu cầu, chúng tôi sẽ liên hệ để sắp xếp phỏng vấn."
+        },
+        "shopRegistration": {
+            "title": "Đăng ký shop bán hàng",
+            "subtitle": "Trở thành đối tác shop cùng Tay Ninh Travel",
+            "info": {
+                "title": "Thông tin shop",
+                "description": "Tham gia mạng lưới đối tác shop để tiếp cận nhiều khách hàng hơn và phát triển kinh doanh cùng Tay Ninh Travel. Chúng tôi mang đến mô hình hợp tác chuyên nghiệp, minh bạch và cùng có lợi.",
+                "modelTitle": "Mô hình hợp tác",
+                "modelContent": "Chúng tôi kết nối shop của bạn với du khách và khách hàng địa phương qua nền tảng. Bạn chủ động quản lý sản phẩm/dịch vụ, chúng tôi giúp bạn mở rộng tệp khách hàng.",
+                "benefits": "Lợi ích",
+                "benefitsList": [
+                    "Mở rộng tệp khách hàng qua nền tảng du lịch của chúng tôi",
+                    "Hỗ trợ chuyên nghiệp, hợp tác minh bạch",
+                    "Mô hình kinh doanh linh hoạt, phù hợp nhiều loại shop",
+                    "Quảng bá thương hiệu, hỗ trợ marketing",
+                    "Cơ hội tham gia các sự kiện, chương trình du lịch"
+                ],
+                "descriptionTitle": "Mô tả"
+            },
+            "requirements": {
+                "title": "Yêu cầu đối với shop",
+                "legal": {
+                    "title": "Giấy phép kinh doanh hợp pháp",
+                    "content": "Shop phải có giấy phép kinh doanh hợp lệ và hoạt động đúng pháp luật."
+                },
+                "location": {
+                    "title": "Địa chỉ rõ ràng",
+                    "content": "Shop cần có địa chỉ cụ thể tại Tây Ninh hoặc khu vực lân cận."
+                },
+                "quality": {
+                    "title": "Chất lượng sản phẩm/dịch vụ",
+                    "content": "Cam kết cung cấp sản phẩm/dịch vụ chất lượng, chăm sóc khách hàng tốt."
+                },
+                "branding": {
+                    "title": "Hình ảnh thương hiệu",
+                    "content": "Shop cần có nhận diện thương hiệu rõ ràng, hình ảnh chuyên nghiệp."
+                }
+            },
+            "form": {
+                "title": "Form đăng ký shop",
+                "description": "Vui lòng điền thông tin bên dưới để đăng ký shop đối tác cùng Tay Ninh Travel.",
+                "shopName": "Tên shop",
+                "shopNameRequired": "Vui lòng nhập tên shop!",
+                "shopNamePlaceholder": "VD: Shop đặc sản Tây Ninh",
+                "representativeName": "Tên người đại diện",
+                "representativeNameRequired": "Vui lòng nhập tên người đại diện!",
+                "representativeNamePlaceholder": "VD: Nguyễn Văn A",
+                "website": "Website (tuỳ chọn)",
+                "websitePlaceholder": "https://yourshop.com",
+                "shopType": "Loại hình shop",
+                "shopTypeRequired": "Vui lòng chọn loại hình shop!",
+                "shopTypePlaceholder": "VD: Đặc sản, Nhà hàng, Quà lưu niệm...",
+                "shopTypes": {
+                    "souvenir": "Cửa hàng quà lưu niệm",
+                    "localSpecialties": "Cửa hàng đặc sản địa phương",
+                    "instantFood": "Cửa hàng bán đặc sản ăn liền"
+                },
+                "location": "Địa chỉ",
+                "locationRequired": "Vui lòng nhập địa chỉ shop!",
+                "locationPlaceholder": "Địa chỉ đầy đủ của shop",
+                "openingHour": "Giờ mở cửa (tuỳ chọn)",
+                "openingHourRequired": "Vui lòng chọn giờ mở cửa!",
+                "openingHourPlaceholder": "Chọn giờ mở cửa",
+                "closingHour": "Giờ đóng cửa (tuỳ chọn)",
+                "closingHourRequired": "Vui lòng chọn giờ đóng cửa!",
+                "closingHourPlaceholder": "Chọn giờ đóng cửa",
+                "shopDescription": "Mô tả shop (tuỳ chọn)",
+                "shopDescriptionPlaceholder": "Mô tả về shop, sản phẩm và dịch vụ của bạn...",
+                "logo": "Logo shop",
+                "logoRequired": "Vui lòng tải lên logo shop!",
+                "invalidLogoFormat": "Chỉ chấp nhận file .jpg, .jpeg, .png!",
+                "logoTooLarge": "Logo tối đa 5MB!",
+                "selectLogo": "Chọn logo",
+                "businessLicense": "Giấy phép kinh doanh",
+                "businessLicenseRequired": "Vui lòng tải lên giấy phép kinh doanh!",
+                "invalidLicenseFormat": "Chỉ chấp nhận file .pdf, .jpg, .jpeg, .png!",
+                "licenseTooLarge": "File tối đa 5MB!",
+                "selectLicense": "Chọn file",
+                "email": "Email",
+                "emailRequired": "Vui lòng nhập email!",
+                "emailInvalid": "Email không hợp lệ!",
+                "emailPlaceholder": "example@gmail.com",
+                "phone": "Số điện thoại",
+                "phoneRequired": "Vui lòng nhập số điện thoại!",
+                "phoneInvalid": "Số điện thoại không hợp lệ!",
+                "phonePlaceholder": "0123456789",
+                "businessCode": "Mã số doanh nghiệp",
+                "businessCodeRequired": "Vui lòng nhập mã số doanh nghiệp!",
+                "businessCodePlaceholder": "Nhập mã số doanh nghiệp",
+                "fileHint": "Chấp nhận: .pdf, .jpg, .jpeg, .png (tối đa 5MB)",
+                "submit": "Đăng ký shop",
+                "successMessage": "Đăng ký shop thành công! Chúng tôi sẽ liên hệ bạn sớm nhất.",
+                "errorMessage": "Có lỗi khi gửi đăng ký. Vui lòng thử lại sau.",
+                "fileUploadSuccess": "đã tải lên thành công!",
+                "loginRequired": "Vui lòng đăng nhập để đăng ký shop."
+            }
+        }
+    },
+    "about": {
+        "title": "Về chúng tôi",
+        "subtitle": "Khám phá câu chuyện, sứ mệnh và đội ngũ đằng sau Vi Vu Tour",
+        "storyTitle": "Câu chuyện của chúng tôi",
+        "storyParagraph1": "Vi Vu Tour được thành lập vào năm 2010 với mong muốn giới thiệu vẻ đẹp của Tây Ninh đến với du khách trong và ngoài nước. Từ một công ty nhỏ chỉ với vài nhân viên, chúng tôi đã phát triển thành một trong những đơn vị lữ hành hàng đầu tại Tây Ninh.",
+        "storyParagraph2": "Với đội ngũ nhân viên giàu kinh nghiệm và am hiểu về địa phương, chúng tôi tự hào mang đến cho khách hàng những trải nghiệm du lịch đáng nhớ, từ khám phá núi Bà Đen hùng vĩ, tham quan Tòa Thánh Cao Đài linh thiêng đến thưởng thức ẩm thực đặc sắc của vùng đất này.",
+        "missionVisionTitle": "Sứ mệnh & Tầm nhìn",
+        "missionTitle": "Sứ mệnh",
+        "missionText": "Chúng tôi cam kết mang đến cho khách hàng những trải nghiệm du lịch chất lượng, an toàn và đáng nhớ tại Tây Ninh. Đồng thời, chúng tôi cũng góp phần quảng bá hình ảnh, văn hóa và con người Tây Ninh đến với bạn bè trong nước và quốc tế.",
+        "visionTitle": "Tầm nhìn",
+        "visionText": "Trở thành đơn vị lữ hành hàng đầu tại Tây Ninh và khu vực Đông Nam Bộ, được khách hàng tin tưởng lựa chọn và đối tác đánh giá cao. Chúng tôi hướng đến việc phát triển du lịch bền vững, tôn trọng môi trường và cộng đồng địa phương.",
+        "teamTitle": "Đội ngũ của chúng tôi"
+    },
+    "home": {
+        "welcome": "Chào mừng đến với Vi Vu Tour",
+        "explore": "Khám phá vẻ đẹp Việt Nam trong một ngày",
+        "discover": "Khám phá ngay",
+        "featuredToursTitle": "Tour Nổi Bật",
+        "featuredToursSubtitle": "Khám phá những tour du lịch hấp dẫn nhất tại Tây Ninh",
+        "whyChooseUs": "Tại sao chọn Vi Vu Tour?",
+        "tourInfo": {
+            "duration": "Thời gian",
+            "price": "Giá",
+            "rating": "Đánh giá"
+        },
+        "features": {
+            "diverseDestinations": {
+                "title": "Điểm đến đa dạng",
+                "description": "Khám phá nhiều điểm đến hấp dẫn quanh Hà Nội"
+            },
+            "timeSaving": {
+                "title": "Tiết kiệm thời gian",
+                "description": "Tour một ngày, phù hợp với mọi lịch trình"
+            },
+            "qualityService": {
+                "title": "Dịch vụ chất lượng",
+                "description": "Hướng dẫn viên chuyên nghiệp, phương tiện hiện đại"
+            }
+        },
+        "hero": {
+            "title": "Vi Vu Tour",
+            "subtitle": "Khám phá vẻ đẹp Việt Nam trong một ngày",
+            "cta": "Khám phá ngay"
+        },
+        "featuredGuides": {
+            "title": "Hướng Dẫn Viên Chuyên Nghiệp",
+            "subtitle": "Gặp gỡ đội ngũ hướng dẫn viên giàu kinh nghiệm và nhiệt huyết của chúng tôi, những người sẽ làm cho hành trình của bạn trở nên đáng nhớ"
+        },
+        "bestSellers": {
+            "title": "Sản Phẩm Bán Chạy",
+            "subtitle": "Khám phá những sản phẩm được yêu thích nhất của chúng tôi",
+            "addToCart": "Thêm vào giỏ",
+            "viewMore": "Xem thêm sản phẩm"
+        },
+        "blogPosts": {
+            "title": "Tin Tức & Câu Chuyện",
+            "subtitle": "Khám phá tin tức mới nhất, mẹo du lịch và những câu chuyện về Tây Ninh",
+            "viewMore": "Xem tất cả bài viết"
+        },
+        "highlights": {
+            "blackLady": {
+                "title": "Núi Bà Đen - Nóc nhà Nam Bộ",
+                "description": "Núi Bà Đen cao 986m là ngọn núi cao nhất Nam Bộ, là điểm đến tâm linh và du lịch nổi tiếng với hệ thống cáp treo hiện đại bậc nhất Việt Nam."
+            },
+            "location": {
+                "title": "Cửa ngõ Đông Nam Bộ",
+                "description": "Tây Ninh là tỉnh cửa ngõ phía Tây Nam của vùng Đông Nam Bộ, giáp với Campuchia, có vị trí địa lý đặc biệt quan trọng về kinh tế và an ninh quốc phòng."
+            },
+            "cuisine": {
+                "title": "Ẩm thực đặc sắc",
+                "description": "Tây Ninh nổi tiếng với nhiều món ăn đặc sản như bánh canh Trảng Bàng, tung lò mò, rượu đế Gò Đen, muối tôm... đã trở thành thương hiệu ẩm thực độc đáo của vùng đất này."
+            }
+        }
+    },
+    "cart": {
+        "title": "Giỏ hàng",
+        "empty": "Giỏ hàng trống",
+        "emptyTitle": "Giỏ hàng của bạn đang trống",
+        "emptyDescription": "Bạn chưa có sản phẩm nào trong giỏ hàng",
+        "addToCart": "Thêm vào giỏ",
+        "removeFromCart": "Xóa khỏi giỏ",
+        "removeItem": "Xóa sản phẩm",
+        "updateQuantity": "Cập nhật số lượng",
+        "clearCart": "Xóa tất cả",
+        "clearAll": "Xóa tất cả",
+        "checkout": "Thanh toán",
+        "proceedToCheckout": "Tiến hành thanh toán",
+        "continueShopping": "Tiếp tục mua sắm",
+        "total": "Tổng cộng",
+        "subtotal": "Tạm tính",
+        "tax": "Thuế",
+        "shipping": "Phí vận chuyển",
+        "freeShipping": "Miễn phí",
+        "quantity": "Số lượng",
+        "price": "Giá",
+        "product": "Sản phẩm",
+        "noReviews": "Chưa có đánh giá nào cho sản phẩm này",
+        "summary": "Tóm tắt đơn hàng",
+        "coupon": "Mã giảm giá",
+        "enterCouponCode": "Nhập mã giảm giá",
+        "applyCoupon": "Áp dụng",
+        "inCart": "Trong giỏ",
+        "item": "sản phẩm",
+        "items": "sản phẩm",
+        "itemRemoved": "Đã xóa sản phẩm",
+        "itemRemovedDescription": "Sản phẩm đã được xóa khỏi giỏ hàng",
+        "cartCleared": "Đã xóa giỏ hàng",
+        "cartClearedDescription": "Tất cả sản phẩm đã được xóa khỏi giỏ hàng",
+        "checkoutDescription": "Chức năng thanh toán đang được phát triển",
+        "error": "Lỗi",
+        "errorDescription": "Đã xảy ra lỗi khi xử lý giỏ hàng. Vui lòng thử lại sau.",
+        "vatIncluded": "* Giá thành đã bao gồm VAT",
+        "chooseVoucher": "Chọn voucher",
+        "voucher": "Mã giảm giá",
+        "discount": "Giảm giá"
+    },
+    "paymentCancel": {
+        "processing": "Đang xử lý hủy thanh toán...",
+        "updatingOrderStatus": "Đang cập nhật trạng thái đơn hàng...",
+        "errorTitle": "Có lỗi xảy ra",
+        "goHome": "Về trang chủ",
+        "continueShopping": "Tiếp tục mua sắm",
+        "cancelTitle": "Thanh toán đã bị hủy",
+        "cancelSubTitle": "Bạn đã hủy quá trình thanh toán. Đơn hàng của bạn chưa được xác nhận.",
+        "orderInfoTitle": "Thông tin đơn hàng",
+        "payosOrderCode": "Mã thanh toán PAYOS",
+        "totalAmount": "Tổng tiền gốc",
+        "discount": "Giảm giá",
+        "totalAfterDiscount": "Tổng cần thanh toán",
+        "status": "Trạng thái",
+        "cancelled": "Đã hủy thanh toán",
+        "createdAt": "Thời gian tạo đơn",
+        "importantInfoTitle": "Thông tin quan trọng",
+        "importantInfoOrderCancelled": "Đơn hàng vẫn được lưu trong hệ thống với trạng thái \"Đã hủy\"",
+        "importantInfoProductInCart": "Sản phẩm vẫn còn trong giỏ hàng của bạn",
+        "importantInfoCanRetry": "Bạn có thể thử thanh toán lại bất cứ lúc nào",
+        "importantInfoHotline": "Liên hệ hotline nếu cần hỗ trợ: 1900-xxxx",
+        "retryPayment": "Thử thanh toán lại",
+        "viewCart": "Xem giỏ hàng",
+        "viewOrders": "Xem đơn hàng",
+        "needHelp": "Cần hỗ trợ?",
+        "contactUs": "Liên hệ với chúng tôi"
+    },
+    "paymentSuccess": {
+        "processing": "Đang xử lý thanh toán...",
+        "confirmingWithSystem": "Đang xác nhận thanh toán với hệ thống...",
+        "errorTitle": "Có lỗi xảy ra",
+        "goHome": "Về trang chủ",
+        "continueShopping": "Tiếp tục mua sắm",
+        "successTitle": "Thanh toán thành công!",
+        "successSubTitle": "Cảm ơn bạn đã mua sắm. Đơn hàng của bạn đã được xác nhận.",
+        "orderInfoTitle": "Thông tin đơn hàng",
+        "printOrder": "In đơn hàng",
+        "payosOrderCode": "Mã thanh toán PAYOS",
+        "totalAmount": "Tổng tiền gốc",
+        "discount": "Giảm giá",
+        "totalAfterDiscount": "Tổng thanh toán",
+        "status": "Trạng thái",
+        "paid": "Đã thanh toán",
+        "createdAt": "Thời gian đặt hàng",
+        "importantInfoTitle": "Lưu ý quan trọng",
+        "importantInfoSaveOrderCode": "Vui lòng lưu lại mã đơn hàng để tra cứu sau này",
+        "importantInfoEmailConfirm": "Chúng tôi sẽ gửi email xác nhận trong vòng 24 giờ",
+        "importantInfoDeliveryTime": "Đơn hàng sẽ được xử lý và giao trong 2-3 ngày làm việc",
+        "importantInfoHotline": "Liên hệ hotline nếu cần hỗ trợ: 1900-xxxx",
+        "viewOrders": "Xem đơn hàng của tôi",
+        "needHelp": "Cần hỗ trợ?",
+        "contactUs": "Liên hệ với chúng tôi"
+    },
+    "checkout": {
+        "promotionTitle": "Khuyến mãi",
+        "title": "Thanh toán",
+        "emptyCart": "Giỏ hàng trống",
+        "emptyCartDescription": "Vui lòng thêm sản phẩm vào giỏ hàng trước khi thanh toán",
+        "steps": {
+            "shippingMethod": "Phương thức nhận hàng",
+            "shippingMethodDesc": "Chọn cách bạn muốn nhận hàng",
+            "deliveryInfo": "Thông tin giao hàng",
+            "deliveryInfoDesc": "Nhập thông tin giao hàng (nếu giao tận nơi)",
+            "paymentShipping": "Thanh toán & Xác nhận",
+            "paymentShippingDesc": "Chọn phương thức thanh toán và xác nhận đơn hàng",
+            "confirmation": "Hoàn tất",
+            "confirmationDesc": "Xác nhận và hoàn tất đơn hàng"
+        },
+        "pickupNote": "Nếu bạn chọn nhận hàng tại cửa hàng, vui lòng đến địa chỉ cửa hàng để nhận",
+        "deliveryInfo": "Thông tin giao hàng",
+        "fullName": "Họ và tên",
+        "fullNameRequired": "Vui lòng nhập họ và tên",
+        "enterFullName": "Nhập họ và tên",
+        "phone": "Số điện thoại",
+        "phoneRequired": "Vui lòng nhập số điện thoại",
+        "phoneInvalid": "Số điện thoại không hợp lệ",
+        "enterPhone": "Nhập số điện thoại",
+        "email": "Email",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Email không hợp lệ",
+        "enterEmail": "Nhập địa chỉ email",
+        "address": "Địa chỉ",
+        "addressRequired": "Vui lòng nhập địa chỉ",
+        "enterAddress": "Nhập địa chỉ chi tiết",
+        "city": "Tỉnh/Thành phố",
+        "cityRequired": "Vui lòng nhập tỉnh/thành phố",
+        "enterCity": "Nhập tỉnh/thành phố",
+        "district": "Quận/Huyện",
+        "districtRequired": "Vui lòng nhập quận/huyện",
+        "enterDistrict": "Nhập quận/huyện",
+        "ward": "Phường/Xã",
+        "wardRequired": "Vui lòng nhập phường/xã",
+        "enterWard": "Nhập phường/xã",
+        "note": "Ghi chú",
+        "enterNote": "Ghi chú thêm (tùy chọn)",
+        "shippingMethod": "Phương thức vận chuyển",
+        "shipping": {
+            "shipCod": "Giao hàng COD",
+            "shipCodDescription": "Giao hàng tận nơi, thanh toán khi nhận hàng",
+            "pickup": "Nhận tại cửa hàng",
+            "pickupDescription": "Đến cửa hàng để nhận hàng trực tiếp"
+        },
+        "paymentMethod": "Phương thức thanh toán",
+        "payment": {
+            "cod": "Thanh toán khi nhận hàng (COD)",
+            "codDescription": "Thanh toán bằng tiền mặt khi nhận hàng",
+            "bankTransfer": "Chuyển khoản ngân hàng",
+            "bankTransferDescription": "Chuyển khoản qua ngân hàng hoặc ví điện tử",
+            "creditCard": "Thẻ tín dụng/Ghi nợ",
+            "creditCardDescription": "Thanh toán trực tuyến bằng thẻ"
+        },
+        "bankTransferInfo": "Thông tin chuyển khoản",
+        "bankName": "Ngân hàng",
+        "accountNumber": "Số tài khoản",
+        "accountName": "Chủ tài khoản",
+        "transferContent": "Nội dung chuyển khoản",
+        "orderConfirmation": "Xác nhận đơn hàng",
+        "shippingPaymentInfo": "Thông tin vận chuyển & thanh toán",
+        "orderSummary": "Tóm tắt đơn hàng",
+        "product": "Sản phẩm",
+        "quantity": "Số lượng",
+        "price": "Giá",
+        "total": "Thành tiền",
+        "subtotal": "Tạm tính",
+        "shippingFee": "Phí vận chuyển",
+        "free": "Miễn phí",
+        "immediate": "Nhận trong tour",
+        "days": "ngày",
+        "agreeTerms": "Tôi đồng ý với",
+        "termsAndConditions": "Điều khoản và Điều kiện",
+        "agreeTermsRequired": "Vui lòng đồng ý với điều khoản và điều kiện",
+        "previous": "Quay lại",
+        "next": "Tiếp tục",
+        "placeOrder": "Đặt hàng",
+        "error": "Lỗi",
+        "fillRequiredFields": "Vui lòng điền đầy đủ thông tin bắt buộc",
+        "orderSuccess": "Đặt hàng thành công",
+        "orderSuccessDescription": "Đơn hàng của bạn đã được ghi nhận. Chúng tôi sẽ liên hệ với bạn sớm nhất.",
+        "orderError": "Đặt hàng thất bại",
+        "orderErrorDescription": "Có lỗi xảy ra khi đặt hàng. Vui lòng thử lại."
+    },
+    "shopList": {
+        "title": "Danh sách cửa hàng",
+        "subtitle": "Khám phá các cửa hàng đặc sản nổi bật tại Tây Ninh.",
+        "searchPlaceholder": "Tìm kiếm cửa hàng...",
+        "filters": "Bộ lọc",
+        "status": "Trạng thái",
+        "allStatus": "Tất cả trạng thái",
+        "active": "Hoạt động",
+        "inactive": "Không hoạt động",
+        "minimumRating": "Đánh giá tối thiểu",
+        "allRating": "Tất cả",
+        "rating3": "3 sao trở lên",
+        "rating4": "4 sao trở lên",
+        "rating45": "4.5 sao trở lên",
+        "rating2": "2 sao trở lên",
+        "resetFilters": "Đặt lại bộ lọc",
+        "loading": "Đang tải dữ liệu...",
+        "noShopsFound": "Không tìm thấy cửa hàng nào"
+    },
+    "shop": {
+        "title": "Sản phẩm lưu niệm",
+        "subtitle": "Khám phá các sản phẩm đặc trưng của Tây Ninh",
+        "categories": {
+            "all": "Tất cả danh mục",
+            "souvenirs": "Đồ lưu niệm",
+            "clothing": "Quần áo",
+            "accessories": "Phụ kiện",
+            "specialties": "Đặc sản",
+            "handicraft": "Thủ công mỹ nghệ",
+            "select": "Chọn danh mục",
+            "title": "Danh mục"
+        },
+        "searchPlaceholder": "Tìm kiếm sản phẩm...",
+        "searchButton": "Tìm kiếm",
+        "sortBy": "Sắp xếp theo",
+        "filters": "Bộ lọc",
+        "sortOptions": {
+            "popularity": "Phổ Biến Nhất",
+            "newest": "Mới Nhất",
+            "priceLow": "Giá: Thấp - Cao",
+            "priceHigh": "Giá: Cao - Thấp"
+        },
+        "noProductsFound": "Không tìm thấy sản phẩm nào",
+        "productDetails": "Chi tiết sản phẩm",
+        "inStock": "Còn hàng",
+        "outOfStock": "Hết hàng",
+        "soldCount": "Đã bán {{count}}",
+        "loading": "Đang tải sản phẩm...",
+        "priceRange": "Khoảng giá",
+        "inStockOnly": "Chỉ hiển thị hàng có sẵn",
+        "totalProducts": "Sản phẩm",
+        "of": "trên"
+    },
+    "common": {
+        "actions": "Thao tác",
+        "loading": "Đang tải...",
+        "error": "Đã xảy ra lỗi",
+        "success": "Thành công",
+        "search": "Tìm kiếm",
+        "logout": "Đăng xuất",
+        "login": "Đăng nhập",
+        "register": "Đăng ký",
+        "dark_mode": "Chế độ tối",
+        "light_mode": "Chế độ sáng",
+        "profile": "Hồ sơ",
+        "settings": "Cài đặt",
+        "pageNotFound": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại.",
+        "backToHome": "Về trang chủ",
+        "loginSuccess": "Đăng nhập thành công",
+        "loginFailed": "Đăng nhập thất bại",
+        "registerSuccess": "Đăng ký thành công",
+        "registerFailed": "Đăng ký thất bại",
+        "updateSuccess": "Cập nhật thành công",
+        "updateFailed": "Cập nhật thất bại",
+        "deleteSuccess": "Xóa thành công",
+        "deleteFailed": "Xóa thất bại",
+        "saveSuccess": "Lưu thành công",
+        "saveFailed": "Lưu thất bại",
+        "cancel": "Hủy",
+        "confirm": "Xác nhận",
+        "delete": "Xóa",
+        "edit": "Sửa",
+        "view": "Xem",
+        "viewDetails": "Xem chi tiết",
+        "save": "Lưu",
+        "submit": "Gửi",
+        "reset": "Đặt lại",
+        "back": "Quay lại",
+        "copySuccess": "Sao chép thành công",
+        "next": "Tiếp theo",
+        "previous": "Trước đó",
+        "finish": "Hoàn thành",
+        "continue": "Tiếp tục",
+        "close": "Đóng",
+        "refresh": "Làm mới",
+        "open": "Mở",
+        "yes": "Có",
+        "no": "Không",
+        "ok": "OK",
+        "of": "trên",
+        "items": "mục",
+        "logoutSuccess": "Đăng xuất thành công",
+        "addToCartSuccess": "Thêm vào giỏ hàng thành công",
+        "addToCartDescription": "Đã thêm {{quantity}} {{name}} vào giỏ hàng",
+        "addToCartError": "Có lỗi xảy ra khi thêm vào giỏ hàng",
+        "removeFromCartSuccess": "Đã xóa sản phẩm khỏi giỏ hàng",
+        "removeFromCartError": "Có lỗi xảy ra khi xóa sản phẩm",
+        "updateCartQuantityError": "Có lỗi xảy ra khi cập nhật số lượng",
+        "addProductToCart": "Đã thêm \"{{name}}\" vào giỏ hàng",
+        "addItemToCart": "Đã thêm sản phẩm vào giỏ hàng",
+        "removeFromFavorites": "Đã xóa khỏi danh sách yêu thích",
+        "addToFavorites": "Đã thêm vào danh sách yêu thích",
+        "bookTourSuccess": "Đặt tour thành công",
+        "bookTourDescription": "Đã thêm {{participants}} vé tour {{name}} vào giỏ hàng",
+        "favorite": "Yêu thích",
+        "share": "Chia sẻ"
+    },
+    "auth": {
+        "email": "Email",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Vui lòng nhập email hợp lệ",
+        "password": "Mật khẩu",
+        "passwordRequired": "Vui lòng nhập mật khẩu",
+        "passwordInvalid": "Mật khẩu phải có ít nhất 6 ký tự",
+        "confirmPassword": "Xác nhận mật khẩu",
+        "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu",
+        "passwordMismatch": "Mật khẩu không khớp",
+        "forgotPassword": "Quên mật khẩu?",
+        "rememberMe": "Ghi nhớ đăng nhập",
+        "noAccount": "Chưa có tài khoản?",
+        "haveAccount": "Đã có tài khoản?",
+        "signUp": "Đăng ký",
+        "signIn": "Đăng nhập",
+        "fullName": "Họ và tên",
+        "nameRequired": "Vui lòng nhập họ và tên",
+        "nameInvalid": "Tên chỉ được chứa chữ cái và khoảng trắng",
+        "phone": "Số điện thoại",
+        "phoneRequired": "Vui lòng nhập số điện thoại",
+        "phoneInvalid": "Vui lòng nhập số điện thoại hợp lệ",
+        "agreement": "Tôi đồng ý với",
+        "termsOfService": "Điều khoản dịch vụ",
+        "and": "và",
+        "privacyPolicy": "Chính sách bảo mật",
+        "agreementRequired": "Vui lòng đồng ý với điều khoản dịch vụ",
+        "orLoginWith": "Hoặc đăng nhập với",
+        "orRegisterWith": "Hoặc đăng ký với",
+        "emailVerification": "Xác thực Email",
+        "otpInstructions": "Vui lòng nhập mã OTP đã được gửi đến email {email}",
+        "timeRemaining": "Thời gian còn lại",
+        "enterOTP": "Nhập mã OTP 6 chữ số",
+        "verify": "Xác thực",
+        "otpInvalid": "Mã OTP phải gồm 6 chữ số",
+        "verificationSuccess": "Xác thực email thành công",
+        "verificationFailed": "Xác thực thất bại. Vui lòng thử lại",
+        "forgotPasswordTitle": "Quên Mật Khẩu",
+        "forgotPasswordInstructions": "Vui lòng nhập email để nhận mã đặt lại mật khẩu",
+        "sendResetCode": "Gửi Mã Đặt Lại",
+        "resetPasswordTitle": "Đặt Lại Mật Khẩu",
+        "resetPasswordInstructions": "Vui lòng nhập mã OTP đã được gửi đến email {email} và mật khẩu mới",
+        "newPassword": "Mật Khẩu Mới",
+        "resetPassword": "Đặt Lại Mật Khẩu",
+        "resetPasswordSuccess": "Đặt lại mật khẩu thành công",
+        "resetPasswordFailed": "Đặt lại mật khẩu thất bại. Vui lòng thử lại"
+    },
+    "footer": {
+        "companyName": "Vi Vu Tour",
+        "description": "Khám phá vẻ đẹp Việt Nam trong một ngày với các tour du lịch chất lượng cao, hướng dẫn viên chuyên nghiệp và trải nghiệm đáng nhớ.",
+        "tours": {
+            "hanoi": "Hà Nội",
+            "hoChiMinh": "Hồ Chí Minh",
+            "daNang": "Đà Nẵng",
+            "nhaTrang": "Nha Trang",
+            "phuQuoc": "Phú Quốc"
+        },
+        "services": {
+            "dayTours": "Tour Ngày",
+            "multiDayTours": "Tour Nhiều Ngày",
+            "privateTours": "Tour Riêng",
+            "groupTours": "Tour Nhóm",
+            "customTours": "Tour Tùy Chỉnh"
+        },
+        "contact": {
+            "address": "123 Đường ABC, Quận XYZ, TP. Tây Ninh",
+            "phone": "+84 123 456 789",
+            "email": "info@tayninhtravel.com"
+        },
+        "language": "Ngôn ngữ"
+    },
+    "profile": {
+        "personalInfo": "Thông tin cá nhân",
+        "changeAvatar": "Thay đổi ảnh đại diện",
+        "saveAvatar": "Lưu ảnh đại diện",
+        "avatarUpdateSuccess": "Cập nhật ảnh đại diện thành công",
+        "avatarUpdateFailed": "Cập nhật ảnh đại diện thất bại",
+        "avatarUploadFailed": "Tải lên ảnh đại diện thất bại",
+        "imageOnly": "Chỉ chấp nhận các tệp hình ảnh",
+        "imageTooLarge": "Kích thước ảnh phải nhỏ hơn 2MB",
+        "imageFormatHint": "Chỉ chấp nhận ảnh JPG, JPEG, PNG (dưới 2MB)",
+        "fileUploadSuccess": "đã được tải lên thành công!",
+        "name": "Họ và tên",
+        "nameRequired": "Vui lòng nhập họ tên",
+        "nameInvalid": "Tên chỉ được chứa chữ cái và khoảng trắng",
+        "email": "Email",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Vui lòng nhập email hợp lệ",
+        "phone": "Số điện thoại",
+        "phoneRequired": "Vui lòng nhập số điện thoại",
+        "address": "Địa chỉ",
+        "bio": "Giới thiệu",
+        "saveChanges": "Lưu thay đổi",
+        "changePassword": "Đổi mật khẩu",
+        "currentPassword": "Mật khẩu hiện tại",
+        "currentPasswordRequired": "Vui lòng nhập mật khẩu hiện tại",
+        "newPassword": "Mật khẩu mới",
+        "newPasswordRequired": "Vui lòng nhập mật khẩu mới",
+        "confirmPassword": "Xác nhận mật khẩu",
+        "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu mới",
+        "passwordMismatch": "Mật khẩu không khớp",
+        "updateSuccess": "Cập nhật thông tin thành công",
+        "updateFailed": "Cập nhật thông tin thất bại",
+        "passwordChangeSuccess": "Đổi mật khẩu thành công",
+        "passwordChangeFailed": "Đổi mật khẩu thất bại",
+        "bookingHistory": "Lịch sử đặt tour",
+        "bookingDate": "Ngày đặt",
+        "price": "Giá",
+        "completed": "Hoàn thành",
+        "upcoming": "Sắp tới",
+        "transactionHistory": "Lịch sử giao dịch",
+        "orderHistory": "Lịch sử đơn hàng",
+        "transactionDate": "Ngày giao dịch",
+        "sendDate": "Ngày gửi",
+        "amount": "Số tiền",
+        "commentHistory": "Lịch sử đánh giá",
+        "personalInfoUpdateSuccess": "Thông tin cá nhân đã được cập nhật",
+        "passwordUpdateSuccess": "Mật khẩu đã được thay đổi",
+        "supportTickets": "Yêu cầu hỗ trợ",
+        "viewAttachment": "Xem tệp đính kèm",
+        "noAttachment": "Không có tệp đính kèm",
+        "noTickets": "Không tìm thấy yêu cầu hỗ trợ nào",
+        "noSupportTickets": "Chưa có yêu cầu hỗ trợ nào",
+        "ticketStatus": {
+            "Pending": "Đang chờ",
+            "Resolved": "Đã giải quyết",
+            "InProgress": "Đang xử lý",
+            "Rejected": "Đã từ chối",
+            "Open": "Mở"
+        },
+        "ticketTable": {
+            "orderNumber": "STT",
+            "responseFromTNDT": "Phản hồi từ TNDT",
+            "attachment": "Tệp đính kèm"
+        },
+        "registerHistory": {
+            "title": "Lịch sử đăng ký",
+            "stt": "STT",
+            "type": "Loại đăng ký",
+            "shop": "Đăng ký Shop",
+            "tourGuide": "Đăng ký Hướng dẫn viên",
+            "submittedAt": "Ngày gửi",
+            "status": "Trạng thái",
+            "status_approved": "Đã duyệt",
+            "status_pending": "Đang chờ",
+            "status_rejected": "Từ chối",
+            "response": "Phản hồi",
+            "modal": {
+                "shopApplicationDetails": "Chi tiết đăng ký Shop",
+                "tourGuideApplicationDetails": "Chi tiết đăng ký Hướng dẫn viên",
+                "shopName": "Tên shop",
+                "representativeName": "Người đại diện",
+                "email": "Email",
+                "phone": "Số điện thoại",
+                "location": "Địa chỉ",
+                "shopType": "Loại shop",
+                "businessLicense": "Mã doanh nghiệp",
+                "website": "Website",
+                "description": "Mô tả",
+                "logo": "Logo",
+                "businessLicenseFile": "Giấy phép kinh doanh",
+                "viewFile": "Xem file",
+                "fullName": "Họ tên",
+                "age": "Tuổi",
+                "address": "Địa chỉ",
+                "experience": "Kinh nghiệm",
+                "languages": "Ngoại ngữ",
+                "additionalInfo": "Thông tin bổ sung",
+                "cv": "CV",
+                "viewCV": "Xem CV",
+                "photo": "Ảnh chân dung"
+            }
+        },
+        "createdAt": "Ngày tạo",
+        "updatedAt": "Ngày cập nhật",
+        "role": "Vai trò"
+    },
+    "contact": {
+        "submitSuccess": "Cảm ơn bạn đã liên hệ với chúng tôi! Chúng tôi sẽ phản hồi trong thời gian sớm nhất."
+    },
+    "support": {
+        "title": "Liên Hệ Hỗ Trợ",
+        "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7",
+        "phone": "Điện thoại",
+        "email": "Email",
+        "workingHours": "Giờ làm việc",
+        "workingHoursContent": "Thứ 2 - Thứ 6: 8:00 - 17:00\nThứ 7 - Chủ nhật: 8:00 - 12:00",
+        "address": "Địa chỉ",
+        "addressContent": "Số 123, Đường ABC, Phường XYZ, TP. Tây Ninh, Tỉnh Tây Ninh",
+        "formTitle": "Gửi Yêu Cầu Hỗ Trợ",
+        "formSubtitle": "Hãy điền thông tin bên dưới và chúng tôi sẽ phản hồi trong thời gian sớm nhất",
+        "mapTitle": "Vị Trí Của Chúng Tôi",
+        "submitSuccess": "Cảm ơn bạn đã gửi tin nhắn. Chúng tôi sẽ liên hệ lại sớm.",
+        "loginRequired": "Vui lòng đăng nhập để gửi yêu cầu hỗ trợ",
+        "hint": "Tất cả các trường có dấu * là bắt buộc",
+        "loginModal": {
+            "title": "Yêu cầu đăng nhập",
+            "content": "Bạn cần đăng nhập để gửi yêu cầu hỗ trợ.",
+            "loginButton": "Đăng nhập ngay",
+            "registerButton": "Đăng ký tài khoản"
+        },
+        "form": {
+            "title": "Tiêu đề",
+            "titleRequired": "Vui lòng nhập tiêu đề",
+            "content": "Nội dung",
+            "contentRequired": "Vui lòng nhập nội dung",
+            "attachment": "Tệp đính kèm",
+            "attachmentHint": "Chấp nhận các file .pdf, .doc, .docx, .jpg, .png (tối đa 5MB)",
+            "uploadButton": "Tải Tệp Lên",
+            "submit": "Gửi Tin Nhắn"
+        },
+        "ticketParams": {
+            "title": "Tiêu đề",
+            "content": "Nội dung",
+            "file": "Tệp đính kèm"
+        },
+        "contactInfo": {
+            "title": "Thông Tin Liên Hệ",
+            "mapTitle": "Vị Trí Của Chúng Tôi",
+            "address": "Địa chỉ",
+            "phone": "Điện thoại",
+            "email": "Email",
+            "workingHours": "Giờ làm việc"
+        }
+    },
+    "blogger": {
+        "header": {
+            "title": "Bảng điều khiển Blogger"
+        },
+        "sidebar": {
+            "title": "Blogger",
+            "dashboard": "Bảng điều khiển",
+            "myBlogs": "Bài viết của tôi",
+            "createBlog": "Tạo bài viết",
+            "myInfo": "Thông tin cá nhân",
+            "role": "Blogger",
+            "editProfile": "Chỉnh sửa hồ sơ",
+            "settings": "Cài đặt",
+            "backToSite": "Về trang chủ",
+            "logout": "Đăng xuất"
+        },
+        "dashboard": {
+            "title": "Bảng điều khiển Blogger",
+            "createNew": "Tạo bài viết mới",
+            "stats": {
+                "totalPosts": "Tổng bài viết",
+                "acceptedPosts": "Đã được duyệt",
+                "pendingPosts": "Chờ duyệt",
+                "rejectedPosts": "Bị từ chối",
+                "totalComments": "Tổng bình luận",
+                "totalLikes": "Tổng lượt thích"
+            },
+            "recentPosts": "Bài viết gần đây",
+            "table": {
+                "title": "Tiêu đề",
+                "status": "Trạng thái",
+                "comments": "Bình luận",
+                "likes": "Lượt thích",
+                "createdAt": "Ngày tạo",
+                "actions": "Thao tác"
+            },
+            "status": {
+                "pending": "Chờ duyệt",
+                "accepted": "Đã được duyệt",
+                "rejected": "Bị từ chối"
+            },
+            "fetchError": "Không thể tải dữ liệu bảng điều khiển"
+        },
+        "myBlogs": {
+            "title": "Bài viết của tôi",
+            "createNew": "Tạo bài viết mới",
+            "searchPlaceholder": "Tìm kiếm theo tiêu đề hoặc nội dung...",
+            "table": {
+                "title": "Tiêu đề",
+                "status": "Trạng thái",
+                "likes": "Lượt thích",
+                "comments": "Bình luận",
+                "updatedAt": "Ngày cập nhật",
+                "actions": "Thao tác"
+            },
+            "status": {
+                "pending": "Chờ duyệt",
+                "accepted": "Đã được duyệt",
+                "rejected": "Bị từ chối"
+            },
+            "noData": "Chưa có bài viết nào",
+            "confirmDelete": "Xóa bài viết",
+            "confirmDeleteDesc": "Bạn có chắc chắn muốn xóa bài viết này? Hành động này không thể hoàn tác.",
+            "messages": {
+                "deleteSuccess": "Xóa bài viết thành công",
+                "deleteError": "Không thể xóa bài viết",
+                "fetchError": "Không thể tải danh sách bài viết"
+            }
+        },
+        "createBlog": {
+            "title": "Tạo bài viết mới",
+            "preview": "Xem trước",
+            "saveDraft": "Lưu nháp",
+            "publish": "Xuất bản",
+            "form": {
+                "title": "Tiêu đề",
+                "titlePlaceholder": "Nhập tiêu đề bài viết...",
+                "excerpt": "Tóm tắt",
+                "excerptPlaceholder": "Nhập tóm tắt ngắn về bài viết...",
+                "content": "Nội dung",
+                "contentPlaceholder": "Viết nội dung bài viết của bạn...",
+                "category": "Danh mục",
+                "categoryPlaceholder": "Chọn danh mục",
+                "tags": "Thẻ",
+                "tagsPlaceholder": "Nhập thẻ và nhấn Enter để thêm..."
+            },
+            "sidebar": {
+                "featured": "Ảnh đại diện",
+                "uploadImage": "Tải ảnh lên",
+                "uploadFiles": "Tải tệp lên",
+                "files": "Tệp",
+                "category": "Danh mục",
+                "selectCategory": "Chọn danh mục",
+                "tags": "Thẻ",
+                "addTag": "Thêm thẻ"
+            },
+            "validation": {
+                "titleRequired": "Vui lòng nhập tiêu đề",
+                "titleMaxLength": "Tiêu đề không được vượt quá 200 ký tự",
+                "excerptRequired": "Vui lòng nhập tóm tắt",
+                "excerptMaxLength": "Tóm tắt không được vượt quá 500 ký tự",
+                "categoryRequired": "Vui lòng chọn danh mục",
+                "contentRequired": "Vui lòng nhập nội dung"
+            },
+            "messages": {
+                "success": "Tạo bài viết thành công",
+                "error": "Không thể tạo bài viết"
+            }
+        },
+        "editBlog": {
+            "title": "Chỉnh sửa bài viết",
+            "notFound": "Không tìm thấy bài viết",
+            "status": "Thông tin bài viết",
+            "currentStatus": "Trạng thái hiện tại",
+            "comments": "Bình luận",
+            "likes": "Lượt thích",
+            "lastUpdated": "Cập nhật lần cuối",
+            "messages": {
+                "success": "Cập nhật bài viết thành công",
+                "error": "Không thể cập nhật bài viết",
+                "loadError": "Không thể tải bài viết",
+                "invalidId": "ID bài viết không hợp lệ"
+            }
+        },
+        "myInfo": {
+            "title": "Thông tin cá nhân",
+            "personalInfo": "Thông tin cá nhân",
+            "changePassword": "Đổi mật khẩu"
+        }
+    },
+    "blog": {
+        "of": "của",
+        "headerTitle": "Blog Du Lịch Tây Ninh",
+        "headerDesc": "Khám phá những câu chuyện, kinh nghiệm và thông tin hữu ích về Tây Ninh",
+        "searchPlaceholder": "Tìm kiếm bài viết...",
+        "searchButton": "Tìm kiếm",
+        "byAuthor": "Bởi {{author}}",
+        "likes": "lượt thích",
+        "comments": "bình luận",
+        "sortNewest": "Mới nhất",
+        "sortOldest": "Cũ nhất",
+        "sortAtoZ": "A-Z",
+        "sortZtoA": "Z-A",
+        "totalPosts": "Bài viết",
+        "paginationInfo": "Thông tin trang",
+        "noPostsFound": "Không tìm thấy bài viết nào"
+    },
+    "tourGuide": {
+        "sidebar": {
+            "dashboard": "Bảng điều khiển",
+            "invitations": "Lời mời tham gia",
+            "schedule": "Lịch trình",
+            "profile": "Hồ sơ",
+            "settings": "Cài đặt",
+            "logout": "Đăng xuất"
+        },
+        "dashboard": {
+            "title": "Dashboard Tour Guide",
+            "welcome": "Chào mừng bạn trở lại! Đây là tổng quan về các lời mời và hoạt động của bạn.",
+            "stats": {
+                "pendingInvitations": "Lời mời chờ phản hồi",
+                "acceptedInvitations": "Đã chấp nhận",
+                "acceptanceRate": "Tỷ lệ chấp nhận",
+                "totalInvitations": "Tổng lời mời"
+            },
+            "pendingInvitations": "Lời mời chờ phản hồi",
+            "performance": "Hiệu suất",
+            "quickActions": "Hành động nhanh",
+            "viewAllInvitations": "Xem tất cả lời mời",
+            "viewSchedule": "Xem lịch trình",
+            "updateProfile": "Cập nhật hồ sơ"
+        },
+        "invitations": {
+            "title": "Lời mời tham gia Tour",
+            "tabs": {
+                "all": "Tất cả",
+                "pending": "Chờ phản hồi",
+                "accepted": "Đã chấp nhận",
+                "rejected": "Đã từ chối",
+                "expired": "Đã hết hạn"
+            },
+            "actions": {
+                "accept": "Chấp nhận",
+                "reject": "Từ chối",
+                "viewDetails": "Xem chi tiết"
+            },
+            "status": {
+                "pending": "Chờ phản hồi",
+                "accepted": "Đã chấp nhận",
+                "rejected": "Đã từ chối",
+                "expired": "Đã hết hạn"
+            },
+            "modals": {
+                "acceptTitle": "Chấp nhận lời mời",
+                "rejectTitle": "Từ chối lời mời",
+                "acceptMessage": "Tin nhắn chấp nhận (tùy chọn)",
+                "rejectionReason": "Lý do từ chối (bắt buộc)"
+            }
+        },
+        "profile": {
+            "title": "Hồ sơ Tour Guide",
+            "personalInfo": "Thông tin cá nhân",
+            "skills": "Kỹ năng và chuyên môn",
+            "experience": "Kinh nghiệm",
+            "languages": "Ngôn ngữ"
+        },
+        "schedule": {
+            "title": "Lịch trình Tour Guide",
+            "todaySchedule": "Lịch trình hôm nay",
+            "upcomingTours": "Tour sắp tới",
+            "eventDetails": "Chi tiết sự kiện"
+        }
+    },
+    "tourCompany": {
+        "sidebar": {
+            "dashboard": "Dashboard",
+            "tourTemplates": "Quản lý Tour Template",
+            "tours": "Quản lý Tour",
+            "transactions": "Lịch sử giao dịch",
+            "reviews": "Lịch sử đánh giá",
+            "revenue": "Quản lý doanh thu",
+            "wallet": "Quản lý ví",
+            "profile": "Thông tin cá nhân",
+            "backToSite": "Về trang chủ",
+            "logout": "Đăng xuất"
+        },
+        "dashboard": {
+            "title": "Tour Company Dashboard",
+            "overview": "Tổng quan hoạt động công ty du lịch",
+            "stats": {
+                "totalTours": "Tổng số tour",
+                "totalBookings": "Tổng đặt chỗ",
+                "totalRevenue": "Tổng doanh thu",
+                "avgRating": "Đánh giá trung bình"
+            },
+            "charts": {
+                "revenueTitle": "Doanh thu theo tháng",
+                "popularToursTitle": "Tour phổ biến"
+            },
+            "recentActivities": {
+                "title": "Hoạt động gần đây",
+                "newBooking": "Đặt chỗ mới",
+                "newReview": "Đánh giá mới",
+                "tourCreated": "Tạo tour mới"
+            }
+        },
+        "tourTemplates": {
+            "title": "Quản lý Tour Template",
+            "searchPlaceholder": "Tìm kiếm theo tên, loại tour",
+            "addButton": "Thêm Template Mới",
+            "columns": {
+                "name": "Tên template",
+                "tourType": "Loại tour",
+                "route": "Tuyến đường",
+                "ticketQuantity": "Số vé",
+                "usageCount": "Số lần sử dụng",
+                "actions": "Thao tác"
+            },
+            "actions": {
+                "view": "Xem",
+                "edit": "Sửa",
+                "delete": "Xóa"
+            },
+            "form": {
+                "addTitle": "Thêm Template Mới",
+                "editTitle": "Sửa Template",
+                "basicInfo": "Thông tin cơ bản",
+                "timeAvailable": "Thời gian có sẵn",
+                "images": "Hình ảnh",
+                "itinerary": "Lịch trình",
+                "additionalInfo": "Thông tin bổ sung",
+                "fields": {
+                    "name": {
+                        "label": "Tên template",
+                        "placeholder": "Nhập tên template tour",
+                        "required": "Vui lòng nhập tên template"
+                    },
+                    "startLocation": {
+                        "label": "Điểm bắt đầu",
+                        "placeholder": "VD: TP. Hồ Chí Minh",
+                        "required": "Vui lòng nhập điểm bắt đầu"
+                    },
+                    "endLocation": {
+                        "label": "Điểm kết thúc",
+                        "placeholder": "VD: Núi Bà Đen, Tây Ninh",
+                        "required": "Vui lòng nhập điểm kết thúc"
+                    },
+                    "tourType": {
+                        "label": "Loại tour",
+                        "placeholder": "Chọn loại tour",
+                        "required": "Vui lòng chọn loại tour",
+                        "options": {
+                            "mountain": "Núi non",
+                            "spiritual": "Tâm linh",
+                            "cultural": "Văn hóa",
+                            "ecological": "Sinh thái",
+                            "historical": "Lịch sử",
+                            "experience": "Du lịch trải nghiệm"
+                        }
+                    },
+                    "ticketQuantity": {
+                        "label": "Số lượng vé",
+                        "placeholder": "Số lượng vé có sẵn",
+                        "required": "Vui lòng nhập số lượng vé"
+                    },
+                    "availableDays": {
+                        "label": "Thứ trong tuần",
+                        "required": "Vui lòng chọn ít nhất 1 thứ",
+                        "options": {
+                            "monday": "Thứ 2",
+                            "tuesday": "Thứ 3",
+                            "wednesday": "Thứ 4",
+                            "thursday": "Thứ 5",
+                            "friday": "Thứ 6",
+                            "saturday": "Thứ 7",
+                            "sunday": "Chủ nhật"
+                        }
+                    },
+                    "availableDates": {
+                        "label": "Ngày trong tháng",
+                        "placeholder": "Chọn ngày trong tháng",
+                        "required": "Vui lòng chọn ít nhất 1 ngày"
+                    },
+                    "availableMonths": {
+                        "label": "Tháng trong năm",
+                        "placeholder": "Chọn tháng trong năm",
+                        "required": "Vui lòng chọn ít nhất 1 tháng"
+                    },
+                    "images": {
+                        "label": "Hình ảnh tour",
+                        "uploadText": "Tải ảnh",
+                        "required": "Vui lòng tải lên ít nhất 1 hình ảnh"
+                    },
+                    "itinerary": {
+                        "label": "Lịch trình",
+                        "checkpoint": "Giờ",
+                        "activity": "Hoạt động",
+                        "checkpointPlaceholder": "Chọn giờ",
+                        "activityPlaceholder": "Mô tả hoạt động tại thời điểm này",
+                        "checkpointRequired": "Chọn giờ",
+                        "activityRequired": "Nhập hoạt động",
+                        "addButton": "Thêm điểm lịch trình"
+                    },
+                    "description": {
+                        "label": "Mô tả tour",
+                        "placeholder": "Mô tả chi tiết về tour, điểm đến, trải nghiệm...",
+                        "required": "Vui lòng nhập mô tả tour"
+                    },
+                    "guideInfo": {
+                        "label": "Thông tin hướng dẫn viên",
+                        "placeholder": "Thông tin về hướng dẫn viên: kinh nghiệm, chuyên môn, ngôn ngữ...",
+                        "required": "Vui lòng nhập thông tin hướng dẫn viên"
+                    }
+                },
+                "buttons": {
+                    "add": "Thêm",
+                    "update": "Cập nhật",
+                    "cancel": "Hủy"
+                }
+            },
+            "messages": {
+                "deleteConfirm": "Bạn có chắc chắn muốn xóa template này?",
+                "deleteSuccess": "Xóa template thành công",
+                "addSuccess": "Thêm template thành công",
+                "updateSuccess": "Cập nhật template thành công"
+            },
+            "view": {
+                "startLocation": "Điểm bắt đầu",
+                "endLocation": "Điểm kết thúc",
+                "tourType": "Loại tour",
+                "ticketQuantity": "Số lượng vé",
+                "timeAvailable": "Thời gian có sẵn",
+                "days": "Thứ",
+                "dates": "Ngày",
+                "months": "Tháng",
+                "itinerary": "Lịch trình",
+                "description": "Mô tả",
+                "guideInfo": "Thông tin hướng dẫn viên"
+            }
+        },
+        "tours": {
+            "title": "Quản lý Tour",
+            "searchPlaceholder": "Tìm kiếm theo tên tour",
+            "addButton": "Thêm Tour Mới",
+            "columns": {
+                "name": "Tên tour",
+                "template": "Template",
+                "date": "Ngày khởi hành",
+                "price": "Giá",
+                "available": "Còn lại",
+                "status": "Trạng thái",
+                "actions": "Thao tác"
+            },
+            "status": {
+                "active": "Hoạt động",
+                "full": "Đã đầy",
+                "cancelled": "Đã hủy"
+            }
+        },
+        "transactions": {
+            "title": "Lịch sử giao dịch",
+            "searchPlaceholder": "Tìm kiếm theo mã giao dịch",
+            "columns": {
+                "transactionId": "Mã giao dịch",
+                "customerName": "Tên khách hàng",
+                "tourName": "Tên tour",
+                "amount": "Số tiền",
+                "commission": "Hoa hồng",
+                "date": "Ngày giao dịch",
+                "status": "Trạng thái"
+            },
+            "status": {
+                "completed": "Hoàn thành",
+                "pending": "Đang xử lý",
+                "cancelled": "Đã hủy"
+            },
+            "summary": {
+                "title": "Tổng kết",
+                "totalRevenue": "Tổng doanh thu",
+                "totalCommission": "Tổng hoa hồng",
+                "totalTransactions": "Tổng giao dịch"
+            }
+        },
+        "reviews": {
+            "title": "Lịch sử đánh giá",
+            "searchPlaceholder": "Tìm kiếm theo tên tour, khách hàng",
+            "columns": {
+                "customerName": "Tên khách hàng",
+                "tourName": "Tên tour",
+                "rating": "Đánh giá",
+                "comment": "Nhận xét",
+                "date": "Ngày đánh giá",
+                "actions": "Thao tác"
+            },
+            "actions": {
+                "reply": "Trả lời",
+                "view": "Xem chi tiết"
+            },
+            "stats": {
+                "title": "Thống kê đánh giá",
+                "averageRating": "Đánh giá trung bình",
+                "totalReviews": "Tổng số đánh giá",
+                "fiveStars": "5 sao",
+                "fourStars": "4 sao",
+                "threeStars": "3 sao",
+                "twoStars": "2 sao",
+                "oneStar": "1 sao"
+            }
+        },
+        "revenue": {
+            "title": "Dashboard doanh thu",
+            "stats": {
+                "totalRevenue": "Tổng doanh thu",
+                "monthlyRevenue": "Doanh thu tháng",
+                "commission": "Hoa hồng",
+                "bookingCount": "Số lượng đặt chỗ"
+            },
+            "charts": {
+                "revenueChart": "Biểu đồ doanh thu",
+                "topTours": "Tour hàng đầu",
+                "revenueBreakdown": "Phân tích doanh thu"
+            }
+        },
+        "common": {
+            "actions": {
+                "add": "Thêm",
+                "edit": "Sửa",
+                "delete": "Xóa",
+                "view": "Xem",
+                "search": "Tìm kiếm",
+                "filter": "Lọc",
+                "export": "Xuất",
+                "import": "Nhập",
+                "save": "Lưu",
+                "cancel": "Hủy",
+                "confirm": "Xác nhận",
+                "yes": "Có",
+                "no": "Không"
+            },
+            "status": {
+                "active": "Hoạt động",
+                "inactive": "Không hoạt động",
+                "pending": "Đang chờ",
+                "completed": "Hoàn thành",
+                "cancelled": "Đã hủy"
+            },
+            "time": {
+                "today": "Hôm nay",
+                "yesterday": "Hôm qua",
+                "thisWeek": "Tuần này",
+                "thisMonth": "Tháng này",
+                "thisYear": "Năm này",
+                "allTime": "Tất cả"
+            }
+        }
+    },
+    "skills": {
+        "category": {
+            "languages": "Ngôn ngữ",
+            "knowledge": "Kiến thức chuyên môn",
+            "activity": "Kỹ năng hoạt động",
+            "special": "Kỹ năng đặc biệt"
+        },
+        "Vietnamese": "Tiếng Việt",
+        "English": "Tiếng Anh",
+        "Chinese": "Tiếng Trung",
+        "Japanese": "Tiếng Nhật",
+        "Korean": "Tiếng Hàn",
+        "French": "Tiếng Pháp",
+        "German": "Tiếng Đức",
+        "Russian": "Tiếng Nga",
+        "History": "Lịch sử",
+        "Culture": "Văn hóa",
+        "Religion": "Tôn giáo",
+        "Cuisine": "Ẩm thực",
+        "Geography": "Địa lý",
+        "Nature": "Thiên nhiên",
+        "Arts": "Nghệ thuật",
+        "Architecture": "Kiến trúc",
+        "MountainClimbing": "Leo núi",
+        "Trekking": "Trekking",
+        "Photography": "Chụp ảnh",
+        "WaterSports": "Thể thao nước",
+        "Cycling": "Đi xe đạp",
+        "Camping": "Cắm trại",
+        "BirdWatching": "Quan sát chim",
+        "AdventureSports": "Thể thao mạo hiểm",
+        "FirstAid": "Sơ cứu",
+        "Driving": "Lái xe",
+        "Cooking": "Nấu ăn",
+        "Meditation": "Hướng dẫn thiền",
+        "TraditionalMassage": "Massage truyền thống"
+    },
+    "chatbot": {
+        "title": "TNDT AI Assistant",
+        "greeting": "Xin chào! Tôi có thể giúp gì cho bạn hôm nay?",
+        "inputPlaceholder": "Nhập tin nhắn...",
+        "errors": {
+            "loginRequired": "Bạn cần đăng nhập để sử dụng chat.",
+            "cannotLoadSessions": "Không thể tải danh sách phiên chat.",
+            "cannotCreateSession": "Không thể tạo phiên chat mới.",
+            "createSessionError": "Có lỗi xảy ra khi tạo phiên chat.",
+            "cannotSendMessage": "Không thể gửi tin nhắn. Vui lòng thử lại.",
+            "sendMessageError": "Có lỗi xảy ra khi gửi tin nhắn."
+        },
+        "sessions": {
+            "history": "Lịch sử chat",
+            "noSessions": "Chưa có phiên chat nào",
+            "delete": "Xóa phiên chat",
+            "deleteConfirm": "Bạn có chắc chắn muốn xóa phiên chat \"{title}\"?",
+            "deleteWarning": "Hành động này không thể hoàn tác.",
+            "edit": "Đổi tên phiên chat",
+            "editPrompt": "Nhập tên mới cho phiên chat:",
+            "editPlaceholder": "Nhập tên mới..."
+        },
+        "chatTypes": {
+            "tour": "Tư vấn Tour",
+            "product": "Tư vấn Sản phẩm",
+            "tayninh": "Thông tin Tây Ninh",
+            "default": "TNDT AI Chat",
+            "selectType": "Chọn loại tư vấn:",
+            "descriptions": {
+                "tour": "Tư vấn tour, giá cả, đặt chỗ",
+                "product": "Tư vấn mua sắm đặc sản",
+                "tayninh": "Lịch sử, văn hóa địa phương"
+            }
+        },
+        "actions": {
+            "creating": "Đang tạo...",
+            "startChat": "Bắt đầu chat",
+            "sendMessage": "Gửi tin nhắn",
+            "closeChat": "Đóng chat",
+            "newChat": "Tạo chat mới",
+            "rename": "Đổi tên",
+            "delete": "Xóa",
+            "cancel": "Hủy",
+            "save": "Lưu"
+        },
+        "tooltips": {
+            "sessionHistory": "Lịch sử chat",
+            "newChat": "Tạo chat mới",
+            "closeChat": "Đóng chat",
+            "rename": "Đổi tên",
+            "delete": "Xóa",
+            "sendMessage": "Gửi tin nhắn",
+            "startChat": "Bắt đầu chat"
+        },
+        "placeholders": {
+            "typeMessage": "Nhập tin nhắn...",
+            "startChatMessage": "Nhập tin nhắn để bắt đầu ...",
+            "newName": "Nhập tên mới..."
+        },
+        "welcome": {
+            "title": "Chào mừng đến với TNDT AI Assistant!",
+            "instructions": "Để bắt đầu trò chuyện, vui lòng:",
+            "steps": {
+                "selectType": "Chọn loại tư vấn phù hợp ở phía trên",
+                "startChat": "Click nút \"Bắt đầu chat\" hoặc dùng icon + trên header",
+                "languageNote": "Hiện chúng tôi không hỗ trợ ngôn ngữ nào khác ngoài tiếng Việt"
+            }
+        },
+        "conversation": {
+            "startTitle": "Bắt đầu cuộc trò chuyện",
+            "startMessage": "Nhập tin nhắn để bắt đầu chat với AI assistant."
+        },
+        "topicRedirect": {
+            "confirmMessage": "{suggestion}\n\nBạn có muốn tạo phiên chat mới không?"
+        }
+    },
+    "bookingHistory": {
+        "title": "Lịch sử đặt tour",
+        "description": "Quản lý và theo dõi các tour bạn đã đặt",
+        "searchPlaceholder": "Tìm kiếm theo tên tour, đơn vị tổ chức...",
+        "filterByStatus": "Lọc theo trạng thái",
+        "showCancelled": "Hiển thị đã hủy",
+        "total": "Tổng",
+        "bookings": "đặt tour",
+        "viewDetails": "Chi tiết",
+        "guide": "HDV",
+        "columns": {
+            "bookingCode": "Mã thanh toán",
+            "tourCompanyName": "Công ty ",
+            "tourName": "Tên tour",
+            "tourDate": "Ngày tour",
+            "guestCount": "Số khách",
+            "totalAmount": "Tổng tiền",
+            "status": "Trạng thái",
+            "bookingDate": "Ngày đặt",
+            "actions": "Thao tác"
+        },
+        "statuses": {
+            "completed": "Hoàn thành",
+            "cancelled": "Đã hủy",
+            "confirmed": "Đã xác nhận",
+            "pending": "Chờ xử lý"
+        }
+    },
+    "commentHistory": {
+        "title": "Lịch sử đánh giá",
+        "description": "Quản lý và xem lại các đánh giá bạn đã để lại cho các tour",
+        "noReviews": "Bạn chưa có đánh giá nào",
+        "columns": {
+            "tourName": "Tên tour",
+            "rating": "Đánh giá",
+            "comment": "Bình luận",
+            "date": "Ngày đánh giá"
+        }
+    },
+    "supportTicketHistory": {
+        "title": "Lịch sử yêu cầu hỗ trợ",
+        "description": "Theo dõi các yêu cầu hỗ trợ bạn đã gửi và trạng thái xử lý"
+    },
+    "registerHistory": {
+        "title": "Lịch sử đăng ký",
+        "description": "Theo dõi trạng thái đăng ký shop và hướng dẫn viên của bạn"
+    },
+    "orderHistory": {
+        "title": "Lịch sử đơn hàng",
+        "description": "Quản lý và theo dõi các đơn hàng đặc sản của bạn",
+        "orderNumber": "Mã đơn hàng",
+        "shopName": "Cửa hàng",
+        "itemCount": "Số sản phẩm",
+        "itemCountText": "sản phẩm",
+        "totalAmount": "Tổng tiền",
+        "orderStatus": "Trạng thái đơn hàng",
+        "paymentStatus": "Thanh toán",
+        "orderDate": "Ngày đặt",
+        "actions": "Thao tác",
+        "viewDetail": "Chi tiết",
+        "detailModalTitle": "Chi tiết đơn hàng",
+        "status": "Trạng thái",
+        "payment": "Thanh toán",
+        "paymentMethod": "Phương thức thanh toán",
+        "deliveryDate": "Ngày giao",
+        "shippingAddress": "Địa chỉ giao hàng",
+        "notes": "Ghi chú",
+        "productOrdered": "Sản phẩm đã đặt",
+        "productName": "Sản phẩm",
+        "quantity": "Số lượng",
+        "unitPrice": "Đơn giá",
+        "itemTotal": "Thành tiền",
+        "grandTotal": "Tổng cộng",
+        "paginationText": "của",
+        "paginationTotal": "đơn hàng",
+        "loadingError": "Không thể tải lịch sử đơn hàng",
+        "searchPlaceholder": "Tìm kiếm theo mã đơn hàng, tên cửa hàng...",
+        "filterByStatus": "Lọc theo trạng thái",
+        "showCancelled": "Hiển thị đã hủy",
+        "refresh": "Làm mới",
+        "total": "Tổng",
+        "errorOccurred": "Có lỗi xảy ra",
+        "tryAgain": "Thử lại",
+        "noOrders": "Bạn chưa có đơn hàng nào",
+        "close": "Đóng",
+        "orderInformation": "Thông tin đơn hàng",
+        "deliveryStatus": "Trạng thái giao hàng",
+        "delivered": "Đã nhận hàng",
+        "notDelivered": "Chưa nhận hàng",
+        "review": "Đánh giá sản phẩm",
+        "statuses": {
+            "paid": "Đã thanh toán",
+            "notDelivered": "Chưa nhận hàng",
+            "delivered": "Đã nhận hàng",
+            "cancelled": "Bị hủy",
+            "unpaid": "Chưa thanh toán"
+        },
+        "paymentStatuses": {
+            "unpaid": "Chưa thanh toán",
+            "paid": "Đã thanh toán",
+            "refunded": "Đã hoàn tiền"
+        }
+    },
+    "tour": {
+        "notFoundTitle": "Không thể tải thông tin tour",
+        "notFoundText": "Tour không tồn tại hoặc đã bị xóa",
+        "detailTitle": "Chi tiết tour",
+        "route": "Tuyến đường",
+        "duration": "Thời gian",
+        "days": "ngày",
+        "flexible": "Linh hoạt",
+        "reviews": "đánh giá",
+        "scheduleDetail": "Lịch trình chi tiết",
+        "noScheduleDetail": "Chưa có lịch trình chi tiết",
+        "infoTitle": "Thông tin tour",
+        "included": "Bao gồm",
+        "guide": "Hướng dẫn viên chuyên nghiệp",
+        "insurance": "Bảo hiểm du lịch",
+        "transport": "Vận chuyển theo chương trình",
+        "notIncluded": "Không bao gồm",
+        "personalCost": "Chi phí cá nhân",
+        "extraDrink": "Đồ uống ngoài chương trình",
+        "guideTip": "Tiền tip cho hướng dẫn viên",
+        "reviewTitle": "Đánh giá",
+        "writeReview": "Viết đánh giá",
+        "contact": "Liên hệ",
+        "perPerson": "/ người",
+        "onlyLeft": "Chỉ còn {{count}} chỗ trống!",
+        "full": "Hết chỗ",
+        "maxGuests": "Sức chứa tối đa",
+        "booked": "Đã đặt",
+        "availableSpots": "Chỗ trống",
+        "startDate": "Ngày bắt đầu",
+        "bookNow": "Đặt tour ngay",
+        "needLogin": "Cần đăng nhập để đặt tour",
+        "active": "Đang hoạt động",
+        "inactive": "Chưa sẵn sàng",
+        "unitPerson": "người",
+        "unitSpot": "chỗ",
+        "location": {
+            "nuiBaDen": "Núi Bà Đen",
+            "toaThanh": "Tòa Thánh Tây Ninh",
+            "hoDauTieng": "Hồ Dầu Tiếng",
+            "thacGiangDien": "Thác Giang Điền",
+            "vuonQuocGiaLoGo": "Vườn Quốc Gia Lò Gò - Xa Mát"
+        },
+        "search": {
+            "destinationPlaceholder": "Chọn điểm đến",
+            "allLocations": "Tất cả địa điểm",
+            "datePlaceholder": "Chọn ngày khởi hành",
+            "keywordPlaceholder": "Tìm kiếm tour...",
+            "searchButton": "Tìm kiếm"
+        },
+        "found": "Tour",
+        "total": "Tổng số tour"
+    }
+}

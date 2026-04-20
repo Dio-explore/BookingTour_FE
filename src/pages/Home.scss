@@ -1,0 +1,32 @@
+@use '../styles/mixins' as *;
+
+.home-page {
+  padding: 40px 0;
+
+  .container {
+    @include page-container;
+  }
+
+  // Page Header
+  .page-header {
+    @include page-header-style;
+    @include page-header-dark-mode;
+  }
+
+  // Hero Section (if exists)
+  .hero-section {
+    @include page-section;
+  }
+
+  // Other sections
+  .section {
+    @include page-section;
+  }
+}
+
+/* Dark mode styles for home page */
+body.dark-mode {
+  .home-page {
+    background-color: #000000;
+  }
+}

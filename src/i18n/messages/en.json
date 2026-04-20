@@ -1,0 +1,1859 @@
+{
+    "navigation": {
+        "review": {
+            "title": "Product Review",
+            "submit": "Submit Review",
+            "success": "Review submitted successfully",
+            "thankYou": "Thank you for your review!",
+            "error": "An error occurred",
+            "submitFailed": "You cannot review this product because you have not used it.",
+            "ratingRequired": "Please select a rating",
+            "pleaseRate": "You need to select a star rating.",
+            "commentPlaceholder": "Enter your comments about the product..."
+        },
+        "cart": {
+            "noReviews": "No reviews for this product yet."
+        },
+        "auth": {
+            "loginTitle": "Login to review the product"
+        },
+        "home": "Home",
+        "tours": "Tours",
+        "about": "About",
+        "services": "Services",
+        "support": "Support",
+        "jobs": "Careers",
+        "login": "Login",
+        "register": "Register",
+        "bookings": "Book Tour",
+        "activities": "Activities",
+        "shop": "Souvenirs",
+        "shops": "Souvenir Shops",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "admin": {
+        "sidebar": {
+            "dashboard": "Dashboard",
+            "users": "Users Management",
+            "orders": "Orders Management",
+            "tours": "Tours Management",
+            "blogs": "Blogs Management",
+            "cvManagement": "CV Management",
+            "supportTickets": "Support Tickets",
+            "myInfo": "My Information"
+        },
+        "users": {
+            "title": "Users Management",
+            "searchPlaceholder": "Search by name, email, phone",
+            "columns": {
+                "id": "ID",
+                "name": "Name",
+                "email": "Email",
+                "phone": "Phone",
+                "role": "Role",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "status": {
+                "active": "Active",
+                "inactive": "Inactive"
+            },
+            "filters": {
+                "all": "All Users",
+                "filter": "Filter"
+            },
+            "actions": {
+                "add": "Add User",
+                "edit": "Edit",
+                "delete": "Delete",
+                "activate": "Activate",
+                "deactivate": "Deactivate"
+            },
+            "modal": {
+                "add": "Add New User",
+                "edit": "Edit User",
+                "view": "User details"
+            },
+            "validation": {
+                "roleRequired": "Please select a role",
+                "statusRequired": "Please select a status"
+            },
+            "confirmations": {
+                "delete": {
+                    "title": "Confirm Delete",
+                    "content": "Are you sure you want to delete user \"{name}\"?"
+                },
+                "activate": {
+                    "title": "Confirm Activation",
+                    "content": "Are you sure you want to activate this user?"
+                },
+                "deactivate": {
+                    "title": "Confirm Deactivation",
+                    "content": "Are you sure you want to deactivate this user?"
+                }
+            },
+            "messages": {
+                "success": {
+                    "created": "User created successfully",
+                    "updated": "User updated successfully",
+                    "deleted": "User deleted successfully",
+                    "activated": "User activated successfully",
+                    "deactivated": "User deactivated successfully"
+                },
+                "error": {
+                    "loading": "Could not load users. Please try again later.",
+                    "create": "Could not create user. Please try again later.",
+                    "update": "Could not update user. Please try again later.",
+                    "delete": "Could not delete user. Please try again later.",
+                    "activate": "Could not activate user. Please try again later.",
+                    "deactivate": "Could not deactivate user. Please try again later.",
+                    "auth": "You need to log in to access this page",
+                    "permission": "You don't have permission to access this page",
+                    "invalidUser": "Invalid user information"
+                }
+            },
+            "pagination": {
+                "of": "of",
+                "items": "items"
+            }
+        },
+        "cvManagement": {
+            "title": "CV Management",
+            "searchPlaceholder": "Search by email",
+            "columns": {
+                "index": "No.",
+                "email": "Email",
+                "submitDate": "Submit Date",
+                "attachment": "Attachment",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "status": {
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "actions": {
+                "approve": "Approve",
+                "reject": "Reject",
+                "delete": "Delete",
+                "viewCV": "View CV"
+            },
+            "confirmations": {
+                "approve": {
+                    "title": "Approve CV",
+                    "content": "Are you sure you want to approve this CV?"
+                },
+                "reject": {
+                    "title": "Reject CV",
+                    "content": "Please provide rejection reason",
+                    "label": "Rejection Reason",
+                    "placeholder": "Enter rejection reason...",
+                    "required": "Please enter rejection reason",
+                    "minLength": "Rejection reason must be at least 10 characters"
+                },
+                "delete": {
+                    "title": "Delete CV",
+                    "content": "Are you sure you want to delete this CV?"
+                }
+            },
+            "messages": {
+                "success": {
+                    "approved": "CV approved successfully",
+                    "rejected": "CV rejected successfully",
+                    "deleted": "CV deleted successfully"
+                },
+                "error": {
+                    "loading": "Could not load CVs. Please try again later.",
+                    "approve": "Could not approve CV. Please try again later.",
+                    "reject": "Could not reject CV. Please try again later.",
+                    "delete": "Could not delete CV. Please try again later.",
+                    "auth": "Please login to continue"
+                }
+            }
+        },
+        "supportTickets": {
+            "title": "Support Tickets Management",
+            "subtitle": "Manage and respond to user support requests",
+            "searchPlaceholder": "Search by title, content, email or name",
+            "filterByStatus": "Filter by status",
+            "columns": {
+                "title": "Title",
+                "user": "User",
+                "date": "Date",
+                "status": "Status",
+                "hasAttachment": "Attachment",
+                "actions": "Actions"
+            },
+            "actions": {
+                "view": "View",
+                "respond": "Respond"
+            },
+            "viewTicket": "View Ticket Details",
+            "respondToTicket": "Respond to Ticket",
+            "submittedBy": "Submitted by",
+            "dateSubmitted": "Date submitted",
+            "status": "Status",
+            "message": "Message",
+            "response": "Response",
+            "updateStatus": "Update Status",
+            "markInProgress": "In Progress",
+            "markClosed": "Close Ticket",
+            "markOpen": "Reopen Ticket",
+            "yourResponse": "Your Response",
+            "responseHint": "Enter your response to the ticket...",
+            "downloadAttachment": "Download Attachment",
+            "viewAttachment": "View Attachment",
+            "responseSuccess": "Response sent successfully",
+            "statusUpdateSuccess": "Ticket status updated to {{status}}",
+            "errors": {
+                "fetchFailed": "Failed to load tickets",
+                "statusUpdateFailed": "Failed to update ticket status",
+                "responseFailed": "Failed to send response"
+            }
+        }
+    },
+    "tours": {
+        "route": "{{from}} → {{to}}",
+        "reviewCount": "({{count}} reviews)",
+        "minCapacityPlaceholder": "Minimum guests",
+        "unitPerson": "person",
+        "earlyBirdTooltip": "Save {{percent}}% for early booking",
+        "earlyBirdTag": "Early Bird -{{percent}}%",
+        "earlyBirdCountdownTooltip": "Days left for Early Bird discount",
+        "earlyBirdCountdown": "{{days}} days left",
+        "regularPrice": "Regular Price",
+        "perGuest": "/ guest",
+        "totalForGuests": "Total for {{count}} guests",
+        "saving": "Save {{amount}}₫",
+        "bookNow": "Book Now",
+        "viewDetails": "View Details",
+        "status": {
+            "public": "On Sale",
+            "waitToPublic": "Coming Soon",
+            "approved": "Approved",
+            "awaitingGuide": "Awaiting Guide Assignment",
+            "notReady": "Not Ready"
+        },
+        "contactForPrice": "Contact",
+        "seatsLeft": "seats left",
+        "imageCount": "images",
+        "filters": "Filters",
+        "destinations": "Destinations",
+        "priceRange": "Price Range",
+        "availableOnly": "Available only",
+        "minRating": "Minimum Rating",
+        "minCapacity": "Minimum Capacity",
+        "days": "days",
+        "flexible": "Flexible",
+        "maxParticipants": "Max participants",
+        "startDate": "Start date",
+        "person": "person",
+        "unavailable": "Unavailable"
+    },
+    "thingsToDo": {
+        "pageTitle": "Explore Tay Ninh",
+        "pageSubtitle": "Experience exciting activities and attractive tourist destinations",
+        "location": "Location",
+        "duration": "Duration",
+        "price": "Price",
+        "rating": "Rating",
+        "viewDetails": "View Details",
+        "noToursFound": "No tours found matching your search criteria"
+    },
+    "thingsToDoDetail": {
+        "tourNotFound": "Tour not found",
+        "tourNotExist": "This tour does not exist or has been deleted",
+        "back": "Back",
+        "home": "Home",
+        "activities": "Activities",
+        "highlights": "Highlights",
+        "tourDetails": "Tour Details",
+        "includedServices": "Included Services",
+        "excludedServices": "Excluded Services",
+        "reviews": "Reviews",
+        "writeReview": "Write a Review",
+        "bookNow": "Book Now",
+        "favorite": "Favorite",
+        "share": "Share",
+        "participationDate": "Participation Date",
+        "numberOfParticipants": "Number of Participants",
+        "pleaseSelectDate": "Please select a date",
+        "pleaseEnterParticipants": "Please enter number of participants",
+        "chooseDate": "Choose date",
+        "maximumPeople": "Maximum people",
+        "peoplePerTour": "people/tour",
+        "freeCancellation": "Free cancellation",
+        "beforeDays": "Before 3 days",
+        "needHelp": "Need Help?",
+        "contactSupport": "Contact us if you have any questions about this tour",
+        "contactSupportButton": "Contact Support",
+        "loginRequired": "Login Required",
+        "loginRequiredMessage": "Please login to book this tour.",
+        "bookingConfirmation": "Booking Confirmed",
+        "redirectingToBooking": "You will be redirected to the booking page.",
+        "continueToBooking": "You can now continue to book your tour."
+    },
+    "jobs": {
+        "title": "Career Opportunities",
+        "subtitle": "Become a Tour Guide in Tay Ninh",
+        "jobInfo": {
+            "title": "Job Information",
+            "description": "Are you passionate about travel and want to introduce the beauty of Tay Ninh to tourists? We are looking for enthusiastic tour guides to join the team at Tay Ninh Travel.",
+            "jobDescription": "Job Description",
+            "duties": [
+                "Guide tourists through Tay Ninh's attractions",
+                "Introduce local history, culture, and specialties",
+                "Support customers throughout their journey",
+                "Ensure safety and best experience for tourists",
+                "Work flexibly according to tour schedules"
+            ],
+            "benefits": "Benefits",
+            "benefitsList": [
+                "Attractive income (negotiable based on experience)",
+                "Opportunity to meet and interact with domestic and international tourists",
+                "Professional, dynamic working environment",
+                "Training and professional skill development",
+                "Opportunity to explore new tourist destinations"
+            ],
+            "requirements": "Requirements"
+        },
+        "requirements": {
+            "communication": {
+                "title": "Good Communication Skills",
+                "content": "Ability to communicate clearly, confidently, and friendly with tourists."
+            },
+            "localKnowledge": {
+                "title": "Local Knowledge",
+                "content": "Deep knowledge about history, culture, and tourist attractions in Tay Ninh."
+            },
+            "languages": {
+                "title": "Foreign Languages",
+                "content": "Priority is given to candidates who can communicate in English or other foreign languages."
+            },
+            "certification": {
+                "title": "Tour Guide Certificate",
+                "content": "Having a tour guide certificate is an advantage (not mandatory)."
+            }
+        },
+        "applicationForm": {
+            "title": "Application Form",
+            "description": "Fill in your information below to apply for the Tour Guide position at Tay Ninh Travel.",
+            "fullName": "Full Name",
+            "fullNameRequired": "Please enter your full name!",
+            "fullNamePlaceholder": "John Doe",
+            "email": "Email",
+            "emailRequired": "Please enter your email!",
+            "emailInvalid": "Invalid email format!",
+            "emailPlaceholder": "example@gmail.com",
+            "phone": "Phone Number",
+            "phoneRequired": "Please enter your phone number!",
+            "phoneInvalid": "Invalid phone number format! Please enter 10 digits.",
+            "phonePlaceholder": "0912345678",
+            "age": "Age",
+            "ageRequired": "Please enter your age!",
+            "ageInvalid": "Age must be a number!",
+            "ageMinimum": "You must be at least 18 years old!",
+            "ageMaximum": "Maximum age is 65 years old!",
+            "agePlaceholder": "30",
+            "address": "Address",
+            "addressRequired": "Please enter your address!",
+            "addressPlaceholder": "House number, street, ward/commune, district, province/city",
+            "experience": "Work Experience",
+            "experienceRequired": "Please describe your work experience!",
+            "experiencePlaceholder": "Briefly describe your experience in tourism and as a tour guide (if any)",
+            "languages": "Languages",
+            "languagesRequired": "Please list your language proficiency!",
+            "languagesPlaceholder": "List languages you know and proficiency level (basic, intermediate, fluent)",
+            "cv": "Upload your CV",
+            "cvRequired": "Please upload your CV!",
+            "invalidCvFormat": "Only .pdf, .doc, .docx files are accepted!",
+            "fileTooLarge": "File size must be less than 5MB!",
+            "selectFile": "Select File",
+            "photo": "Upload your portrait photo",
+            "photoRequired": "Please upload your portrait photo!",
+            "invalidPhotoFormat": "Only .jpg, .jpeg, .png files are accepted!",
+            "photoTooLarge": "Photo size must be less than 5MB!",
+            "selectPhoto": "Select Photo",
+            "fileHint": "Accept file formats: .pdf, .doc, .docx (max 5MB)",
+            "photoHint": "Accept file formats: .jpg, .jpeg, .png (max 5MB)",
+            "additionalInfo": "Additional Information",
+            "additionalInfoPlaceholder": "Share more about yourself or your special skills",
+            "submit": "Submit Application",
+            "successMessage": "Your application has been submitted successfully! We will contact you as soon as possible.",
+            "errorMessage": "There was an error submitting your application. Please try again later.",
+            "fileUploadSuccess": "has been uploaded successfully!",
+            "submissionSuccessTitle": "Application Submitted Successfully",
+            "submissionSuccessContent": "Thank you for applying! We've received your application and will review it shortly. If your qualifications match our requirements, we will contact you for the next steps.",
+            "loginRequired": "Please log in to submit your application.",
+            "skills": "Tour Guide Skills",
+            "skillsRequired": "Please select at least one skill!",
+            "skillsPlaceholder": "Select skills relevant to the tour guide position",
+            "success": "Application submitted successfully!",
+            "error": "An error occurred while submitting the application. Please try again later.",
+            "fail": "Application submission failed. Please check your information.",
+            "experienceMinLength": "Experience must be at least 10 characters long"
+        },
+        "shopRegistration": {
+            "title": "Shop Registration",
+            "subtitle": "Become a Partner Shop with Tay Ninh Travel",
+            "info": {
+                "title": "Shop Information",
+                "description": "Join our network of partner shops to reach more customers and grow your business with Tay Ninh Travel. We offer a professional, transparent, and mutually beneficial cooperation model.",
+                "modelTitle": "Cooperation Model",
+                "modelContent": "We connect your shop with tourists and local customers through our platform. You manage your products and services, while we help you reach a wider audience.",
+                "benefits": "Benefits",
+                "benefitsList": [
+                    "Expand your customer base through our tourism platform",
+                    "Professional support and transparent cooperation",
+                    "Flexible business model, suitable for various shop types",
+                    "Brand promotion and marketing support",
+                    "Opportunity to participate in tourism events and programs"
+                ],
+                "descriptionTitle": "Description"
+            },
+            "requirements": {
+                "title": "Shop Requirements",
+                "legal": {
+                    "title": "Legal Business License",
+                    "content": "Your shop must have a valid business license and operate legally."
+                },
+                "location": {
+                    "title": "Physical Location",
+                    "content": "Shops must have a clear address in Tay Ninh or nearby areas."
+                },
+                "quality": {
+                    "title": "Product/Service Quality",
+                    "content": "Commitment to providing quality products/services and good customer care."
+                },
+                "branding": {
+                    "title": "Brand Image",
+                    "content": "Shops should have a clear brand identity and professional image."
+                }
+            },
+            "form": {
+                "title": "Shop Registration Form",
+                "description": "Fill in the information below to register your shop as a partner with Tay Ninh Travel.",
+                "shopName": "Shop Name",
+                "shopNameRequired": "Please enter your shop name!",
+                "shopNamePlaceholder": "E.g. Tay Ninh Souvenir Shop",
+                "representativeName": "Representative Name",
+                "representativeNameRequired": "Please enter the representative's name!",
+                "representativeNamePlaceholder": "E.g. Nguyen Van A",
+                "website": "Website (optional)",
+                "websitePlaceholder": "https://yourshop.com",
+                "shopType": "Shop Type",
+                "shopTypeRequired": "Please select shop type!",
+                "shopTypePlaceholder": "E.g. Souvenir, Restaurant, Specialty Food...",
+                "shopTypes": {
+                    "souvenir": "Souvenir Shop",
+                    "localSpecialties": "Local Specialties Shop",
+                    "instantFood": "Instant Food Shop"
+                },
+                "location": "Location",
+                "locationRequired": "Please enter your shop's address!",
+                "locationPlaceholder": "Full address of your shop",
+                "openingHour": "Opening Hour (optional)",
+                "openingHourRequired": "Please select opening hour!",
+                "openingHourPlaceholder": "Select opening hour",
+                "closingHour": "Closing Hour (optional)",
+                "closingHourRequired": "Please select closing hour!",
+                "closingHourPlaceholder": "Select closing hour",
+                "shopDescription": "Shop Description (optional)",
+                "shopDescriptionPlaceholder": "Describe your shop, products and services...",
+                "logo": "Shop Logo",
+                "logoRequired": "Please upload your shop logo!",
+                "invalidLogoFormat": "Only .jpg, .jpeg, .png files are accepted!",
+                "logoTooLarge": "Logo size must be less than 5MB!",
+                "selectLogo": "Select Logo",
+                "businessLicense": "Business License",
+                "businessLicenseRequired": "Please upload your business license!",
+                "invalidLicenseFormat": "Only .pdf, .jpg, .jpeg, .png files are accepted!",
+                "licenseTooLarge": "File size must be less than 5MB!",
+                "selectLicense": "Select File",
+                "totalProducts": "Products",
+                "paginationInfo": "Page info",
+                "email": "Email",
+                "emailRequired": "Please enter your email!",
+                "emailInvalid": "Invalid email format!",
+                "emailPlaceholder": "example@gmail.com",
+                "phone": "Phone Number",
+                "phoneRequired": "Please enter your phone number!",
+                "phoneInvalid": "Invalid phone number format!",
+                "phonePlaceholder": "0123456789",
+                "businessCode": "Business Registration Code",
+                "businessCodeRequired": "Please enter your business registration code!",
+                "businessCodePlaceholder": "Enter business registration code",
+                "fileHint": "Accept file formats: .pdf, .jpg, .jpeg, .png (max 5MB)",
+                "submit": "Submit Registration",
+                "successMessage": "Your shop registration has been submitted successfully! We will contact you soon.",
+                "errorMessage": "There was an error submitting your registration. Please try again later.",
+                "fileUploadSuccess": "has been uploaded successfully!",
+                "loginRequired": "Please log in to register your shop."
+            }
+        },
+        "registerHistory": {
+            "title": "Registration History",
+            "stt": "No.",
+            "type": "Registration Type",
+            "shop": "Shop Registration",
+            "tourGuide": "Tour Guide Registration",
+            "submittedAt": "Submitted At",
+            "status": "Status",
+            "status_approved": "Approved",
+            "status_pending": "Pending",
+            "status_rejected": "Rejected",
+            "response": "Response"
+        }
+    },
+    "about": {
+        "title": "About Us",
+        "subtitle": "Discover the story, mission, and team behind Vi Vu Tour",
+        "storyTitle": "Our Story",
+        "storyParagraph1": "Vi Vu Tour was founded in 2010 with the desire to introduce the beauty of Tay Ninh to domestic and international tourists. From a small company with just a few employees, we have grown into one of the leading travel agencies in Tay Ninh.",
+        "storyParagraph2": "With an experienced team deeply knowledgeable about the local area, we proudly offer memorable travel experiences, from exploring majestic Ba Den Mountain, visiting the sacred Cao Dai Holy See, to enjoying the unique cuisine of this land.",
+        "missionVisionTitle": "Mission & Vision",
+        "missionTitle": "Mission",
+        "missionText": "We are committed to providing customers with quality, safe, and memorable travel experiences in Tay Ninh. At the same time, we contribute to promoting the image, culture, and people of Tay Ninh to friends at home and abroad.",
+        "visionTitle": "Vision",
+        "visionText": "To become the leading travel agency in Tay Ninh and the Southeast region, trusted by customers and highly regarded by partners. We aim for sustainable tourism development, respecting the environment and local communities.",
+        "teamTitle": "Our Team"
+    },
+    "home": {
+        "welcome": "Welcome to Vi Vu Tour",
+        "explore": "Explore Vietnam's beauty in one day",
+        "discover": "Discover Now",
+        "featuredToursTitle": "Featured Tours",
+        "featuredToursSubtitle": "Discover the most attractive tours in Tay Ninh",
+        "whyChooseUs": "Why Choose Vi Vu Tour?",
+        "tourInfo": {
+            "duration": "Duration",
+            "price": "Price",
+            "rating": "Rating"
+        },
+        "features": {
+            "diverseDestinations": {
+                "title": "Diverse Destinations",
+                "description": "Explore various exciting destinations around Hanoi"
+            },
+            "timeSaving": {
+                "title": "Time Saving",
+                "description": "One-day tours, suitable for any schedule"
+            },
+            "qualityService": {
+                "title": "Quality Service",
+                "description": "Professional guides, modern vehicles"
+            }
+        },
+        "hero": {
+            "title": "Vi Vu Tour",
+            "subtitle": "Explore Vietnam's beauty in one day",
+            "cta": "Explore Now"
+        },
+        "featuredGuides": {
+            "title": "Our Professional Guides",
+            "subtitle": "Meet our experienced and passionate tour guides who will make your journey unforgettable"
+        },
+        "bestSellers": {
+            "title": "Best Selling Products",
+            "subtitle": "Discover our most popular items that customers love",
+            "addToCart": "Add to Cart",
+            "viewMore": "View More Products"
+        },
+        "blogPosts": {
+            "title": "Latest News & Stories",
+            "subtitle": "Discover the latest news, travel tips, and stories about Tay Ninh",
+            "viewMore": "View All Posts"
+        },
+        "highlights": {
+            "blackLady": {
+                "title": "Black Lady Mountain - The Roof of Southern Vietnam",
+                "description": "Standing at 986m, Black Lady Mountain is the highest peak in Southern Vietnam, a famous spiritual and tourist destination featuring one of Vietnam's most modern cable car systems."
+            },
+            "location": {
+                "title": "Gateway to Southeast",
+                "description": "Tay Ninh is the southwestern gateway of the Southeast region, bordering Cambodia, holding a strategically important position for both economy and national security."
+            },
+            "cuisine": {
+                "title": "Distinctive Cuisine",
+                "description": "Tay Ninh is famous for its specialty foods such as Trang Bang rice noodle soup, Tung Lo Mo, Go Den rice wine, shrimp salt... which have become unique culinary brands of this land."
+            }
+        }
+    },
+    "cart": {
+        "title": "Shopping Cart",
+        "empty": "Cart is empty",
+        "emptyTitle": "Your cart is empty",
+        "emptyDescription": "You have no items in your cart",
+        "addToCart": "Add to Cart",
+        "removeFromCart": "Remove from Cart",
+        "removeItem": "Remove Item",
+        "updateQuantity": "Update Quantity",
+        "clearCart": "Clear Cart",
+        "clearAll": "Clear All",
+        "checkout": "Checkout",
+        "proceedToCheckout": "Proceed to Checkout",
+        "continueShopping": "Continue Shopping",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "tax": "Tax",
+        "shipping": "Shipping",
+        "freeShipping": "Free",
+        "quantity": "Quantity",
+        "price": "Price",
+        "product": "Product",
+        "noReviews": "No reviews for this product yet",
+        "summary": "Order Summary",
+        "coupon": "Coupon",
+        "enterCouponCode": "Enter coupon code",
+        "applyCoupon": "Apply",
+        "inCart": "In Cart",
+        "item": "item",
+        "items": "items",
+        "itemRemoved": "Item Removed",
+        "itemRemovedDescription": "Item has been removed from cart",
+        "cartCleared": "Cart Cleared",
+        "cartClearedDescription": "All items have been removed from cart",
+        "checkoutDescription": "Checkout functionality is under development",
+        "error": "Error",
+        "errorDescription": "An error occurred while processing your cart. Please try again later.",
+        "vatIncluded": "* Price includes VAT",
+        "chooseVoucher": "Select Voucher",
+        "voucher": "Voucher",
+        "discount": "Discount"
+    },
+    "paymentCancel": {
+        "processing": "Processing payment cancellation...",
+        "updatingOrderStatus": "Updating order status...",
+        "errorTitle": "An error occurred",
+        "goHome": "Go to homepage",
+        "continueShopping": "Continue shopping",
+        "cancelTitle": "Payment has been cancelled",
+        "cancelSubTitle": "You have cancelled the payment process. Your order has not been confirmed.",
+        "orderInfoTitle": "Order Information",
+        "payosOrderCode": "PAYOS Order Code",
+        "totalAmount": "Total Amount",
+        "discount": "Discount",
+        "totalAfterDiscount": "Total After Discount",
+        "status": "Status",
+        "cancelled": "Payment Cancelled",
+        "createdAt": "Order Created At",
+        "importantInfoTitle": "Important Information",
+        "importantInfoOrderCancelled": "Order is still saved in the system with status \"Cancelled\"",
+        "importantInfoProductInCart": "Product is still in your cart",
+        "importantInfoCanRetry": "You can retry payment at any time",
+        "importantInfoHotline": "Contact hotline for support: 1900-xxxx",
+        "retryPayment": "Retry Payment",
+        "viewCart": "View Cart",
+        "viewOrders": "View Orders",
+        "needHelp": "Need help?",
+        "contactUs": "Contact us"
+    },
+    "paymentSuccess": {
+        "processing": "Processing payment...",
+        "confirmingWithSystem": "Confirming payment with the system...",
+        "errorTitle": "An error occurred",
+        "goHome": "Go to homepage",
+        "continueShopping": "Continue shopping",
+        "successTitle": "Payment successful!",
+        "successSubTitle": "Thank you for shopping. Your order has been confirmed.",
+        "orderInfoTitle": "Order Information",
+        "printOrder": "Print Order",
+        "payosOrderCode": "PAYOS Order Code",
+        "totalAmount": "Total Amount",
+        "discount": "Discount",
+        "totalAfterDiscount": "Total After Discount",
+        "status": "Status",
+        "paid": "Paid",
+        "createdAt": "Order Created At",
+        "importantInfoTitle": "Important Note",
+        "importantInfoSaveOrderCode": "Please save your order code for future reference",
+        "importantInfoEmailConfirm": "We will send a confirmation email within 24 hours",
+        "importantInfoDeliveryTime": "Your order will be processed and delivered in 2-3 business days",
+        "importantInfoHotline": "Contact hotline for support: 1900-xxxx",
+        "viewOrders": "View My Orders",
+        "needHelp": "Need help?",
+        "contactUs": "Contact us"
+    },
+    "checkout": {
+        "promotionTitle": "Promotion",
+        "title": "Checkout",
+        "emptyCart": "Cart is Empty",
+        "emptyCartDescription": "Please add products to your cart before checkout",
+        "steps": {
+            "deliveryInfo": "Delivery Information",
+            "deliveryInfoDesc": "Enter your address and contact information",
+            "paymentShipping": "Payment & Shipping",
+            "paymentShippingDesc": "Choose payment and shipping methods",
+            "confirmation": "Order Confirmation",
+            "confirmationDesc": "Review information and complete order"
+        },
+        "pickupNote": "You have chosen in-store pickup. No delivery address required.",
+        "deliveryInfo": "Delivery Information",
+        "fullName": "Full Name",
+        "fullNameRequired": "Please enter your full name",
+        "enterFullName": "Enter your full name",
+        "phone": "Phone Number",
+        "phoneRequired": "Please enter your phone number",
+        "phoneInvalid": "Invalid phone number",
+        "enterPhone": "Enter your phone number",
+        "email": "Email",
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Invalid email address",
+        "enterEmail": "Enter your email address",
+        "address": "Address",
+        "addressRequired": "Please enter your address",
+        "enterAddress": "Enter detailed address",
+        "city": "City/Province",
+        "cityRequired": "Please enter city/province",
+        "enterCity": "Enter city/province",
+        "district": "District",
+        "districtRequired": "Please enter district",
+        "enterDistrict": "Enter district",
+        "ward": "Ward",
+        "wardRequired": "Please enter ward",
+        "enterWard": "Enter ward",
+        "note": "Note",
+        "enterNote": "Additional note (optional)",
+        "shippingMethod": "Shipping Method",
+        "shipping": {
+            "shipCod": "COD Delivery",
+            "shipCodDescription": "Home delivery with cash on delivery",
+            "pickup": "Store Pickup",
+            "pickupDescription": "Pick up directly at store"
+        },
+        "paymentMethod": "Payment Method",
+        "payment": {
+            "cod": "Cash on Delivery (COD)",
+            "codDescription": "Pay cash when receiving the order",
+            "bankTransfer": "Bank Transfer",
+            "bankTransferDescription": "Transfer via bank or e-wallet",
+            "creditCard": "Credit/Debit Card",
+            "creditCardDescription": "Online payment with card"
+        },
+        "bankTransferInfo": "Bank Transfer Information",
+        "bankName": "Bank Name",
+        "accountNumber": "Account Number",
+        "accountName": "Account Holder",
+        "transferContent": "Transfer Content",
+        "orderConfirmation": "Order Confirmation",
+        "shippingPaymentInfo": "Shipping & Payment Information",
+        "orderSummary": "Order Summary",
+        "product": "Product",
+        "quantity": "Quantity",
+        "price": "Price",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "shippingFee": "Shipping Fee",
+        "free": "Free",
+        "immediate": "During tour",
+        "days": "days",
+        "agreeTerms": "I agree to the",
+        "termsAndConditions": "Terms and Conditions",
+        "agreeTermsRequired": "Please agree to the terms and conditions",
+        "previous": "Previous",
+        "next": "Next",
+        "placeOrder": "Place Order",
+        "error": "Error",
+        "fillRequiredFields": "Please fill in all required fields",
+        "orderSuccess": "Order Placed Successfully",
+        "orderSuccessDescription": "Your order has been recorded. We will contact you soon.",
+        "orderError": "Order Failed",
+        "orderErrorDescription": "An error occurred while placing the order. Please try again."
+    },
+    "shopList": {
+        "title": "Shop List",
+        "subtitle": "Discover featured specialty shops in Tay Ninh.",
+        "searchPlaceholder": "Search for shops...",
+        "filters": "Filters",
+        "status": "Status",
+        "allStatus": "All statuses",
+        "active": "Active",
+        "inactive": "Inactive",
+        "minimumRating": "Minimum rating",
+        "allRating": "All",
+        "rating3": "3 stars and up",
+        "rating4": "4 stars and up",
+        "rating45": "4.5 stars and up",
+        "rating2": "2 stars and up",
+        "resetFilters": "Reset filters",
+        "loading": "Loading data...",
+        "noShopsFound": "No shops found"
+    },
+    "shop": {
+        "title": "Souvenir Products",
+        "subtitle": "Discover unique products from Tay Ninh",
+        "searchPlaceholder": "Search products...",
+        "sortBy": "Sort by",
+        "filters": "Filters",
+        "sortOptions": {
+            "popularity": "Most Popular",
+            "newest": "Newest",
+            "priceLow": "Price: Low - High",
+            "priceHigh": "Price: High - Low"
+        },
+        "categories": {
+            "all": "All categories",
+            "souvenirs": "Souvenirs",
+            "clothing": "Clothing",
+            "accessories": "Accessories",
+            "specialties": "Specialties",
+            "handicraft": "Handicraft",
+            "select": "Select category",
+            "title": "Category"
+        },
+        "searchButton": "Search",
+        "noProductsFound": "No products found",
+        "productDetails": "Product Details",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock",
+        "soldCount": "Sold {{count}}",
+        "loading": "Loading products...",
+        "priceRange": "Price Range",
+        "inStockOnly": "Show in-stock only",
+        "totalProducts": "Products",
+        "of": "of",
+        "status": {
+            "active": "Active",
+            "pending": "Pending",
+            "suspended": "Suspended"
+        },
+        "specialty": {
+            "souvenir": "Souvenir Shop",
+            "localSpecialties": "Local Specialties Shop"
+        },
+        "defaultType": "Souvenir Shop",
+        "viewButton": "View Shop"
+    },
+    "common": {
+        "actions": "Actions",
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "success": "Success",
+        "search": "Search",
+        "logout": "Logout",
+        "login": "Login",
+        "register": "Register",
+        "dark_mode": "Dark Mode",
+        "light_mode": "Light Mode",
+        "profile": "Profile",
+        "settings": "Settings",
+        "pageNotFound": "Sorry, the page you visited does not exist.",
+        "backToHome": "Back to Home",
+        "loginSuccess": "Login successful",
+        "loginFailed": "Login failed",
+        "registerSuccess": "Registration successful",
+        "registerFailed": "Registration failed",
+        "updateSuccess": "Update successful",
+        "updateFailed": "Update failed",
+        "deleteSuccess": "Delete successful",
+        "deleteFailed": "Delete failed",
+        "saveSuccess": "Save successful",
+        "saveFailed": "Save failed",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "delete": "Delete",
+        "edit": "Edit",
+        "view": "View",
+        "viewDetails": "View Details",
+        "save": "Save",
+        "submit": "Submit",
+        "reset": "Reset",
+        "back": "Back",
+        "copySuccess": "Copy successful",
+        "next": "Next",
+        "previous": "Previous",
+        "finish": "Finish",
+        "continue": "Continue",
+        "close": "Close",
+        "refresh": "Refresh",
+        "open": "Open",
+        "yes": "Yes",
+        "no": "No",
+        "ok": "OK",
+        "of": "of",
+        "items": "items",
+        "logoutSuccess": "Logout successful",
+        "addToCartSuccess": "Added to cart successfully",
+        "addToCartDescription": "Added {{quantity}} {{name}} to cart",
+        "addToCartError": "Error adding item to cart",
+        "removeFromCartSuccess": "Removed product from cart",
+        "removeFromCartError": "Error removing product from cart",
+        "updateCartQuantityError": "Error updating quantity",
+        "addProductToCart": "Added \"{{name}}\" to cart",
+        "addItemToCart": "Added item to cart",
+        "removeFromFavorites": "Removed from favorites",
+        "addToFavorites": "Added to favorites",
+        "bookTourSuccess": "Tour booked successfully",
+        "bookTourDescription": "Added {{participants}} tickets for {{name}} to cart",
+        "favorite": "Favorite",
+        "share": "Share"
+    },
+    "auth": {
+        "email": "Email",
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Please enter a valid email",
+        "password": "Password",
+        "passwordRequired": "Please enter your password",
+        "passwordInvalid": "Password must be at least 6 characters",
+        "confirmPassword": "Confirm Password",
+        "confirmPasswordRequired": "Please confirm your password",
+        "passwordMismatch": "The two passwords do not match",
+        "forgotPassword": "Forgot Password?",
+        "rememberMe": "Remember me",
+        "noAccount": "Don't have an account?",
+        "haveAccount": "Already have an account?",
+        "signUp": "Sign Up",
+        "signIn": "Sign In",
+        "fullName": "Full Name",
+        "nameRequired": "Please enter your full name",
+        "nameInvalid": "Name must contain only letters and spaces",
+        "phone": "Phone Number",
+        "phoneRequired": "Please enter your phone number",
+        "phoneInvalid": "Please enter a valid phone number",
+        "agreement": "I agree to the",
+        "termsOfService": "Terms of Service",
+        "and": "and",
+        "privacyPolicy": "Privacy Policy",
+        "agreementRequired": "Please agree to the terms and conditions",
+        "orLoginWith": "Or login with",
+        "orRegisterWith": "Or register with",
+        "emailVerification": "Email Verification",
+        "otpInstructions": "Please enter the OTP sent to your email {email}",
+        "timeRemaining": "Time remaining",
+        "enterOTP": "Enter 6-digit OTP",
+        "verify": "Verify",
+        "otpInvalid": "OTP must be 6 digits",
+        "verificationSuccess": "Email verification successful",
+        "verificationFailed": "Verification failed. Please try again",
+        "forgotPasswordTitle": "Forgot Password",
+        "forgotPasswordInstructions": "Please enter your email to receive a password reset code",
+        "sendResetCode": "Send Reset Code",
+        "resetPasswordTitle": "Reset Password",
+        "resetPasswordInstructions": "Please enter the OTP sent to your email {email} and your new password",
+        "newPassword": "New Password",
+        "resetPassword": "Reset Password",
+        "resetPasswordSuccess": "Password reset successful",
+        "resetPasswordFailed": "Password reset failed. Please try again"
+    },
+    "profile": {
+        "personalInfo": "Personal Information",
+        "changeAvatar": "Change Avatar",
+        "saveAvatar": "Save Avatar",
+        "avatarUpdateSuccess": "Avatar updated successfully",
+        "avatarUpdateFailed": "Failed to update avatar",
+        "avatarUploadFailed": "Failed to upload avatar",
+        "imageOnly": "Only image files are accepted",
+        "imageTooLarge": "Image size must be less than 2MB",
+        "imageFormatHint": "Only JPG, JPEG, PNG images (under 2MB) are accepted",
+        "fileUploadSuccess": "has been uploaded successfully!",
+        "name": "Full Name",
+        "nameRequired": "Please enter your name",
+        "nameInvalid": "Name must contain only letters and spaces",
+        "email": "Email",
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Please enter a valid email",
+        "phone": "Phone Number",
+        "phoneRequired": "Please enter your phone number",
+        "address": "Address",
+        "bio": "Bio",
+        "saveChanges": "Save Changes",
+        "changePassword": "Change Password",
+        "currentPassword": "Current Password",
+        "currentPasswordRequired": "Please enter your current password",
+        "newPassword": "New Password",
+        "newPasswordRequired": "Please enter your new password",
+        "confirmPassword": "Confirm Password",
+        "confirmPasswordRequired": "Please confirm your new password",
+        "passwordMismatch": "The two passwords do not match",
+        "updateSuccess": "Profile updated successfully",
+        "updateFailed": "Failed to update profile",
+        "passwordChangeSuccess": "Password changed successfully",
+        "passwordChangeFailed": "Failed to change password",
+        "bookingHistory": "Booking History",
+        "bookingDate": "Booking Date",
+        "price": "Price",
+        "completed": "Completed",
+        "upcoming": "Upcoming",
+        "transactionHistory": "Transaction History",
+        "orderHistory": "Order History",
+        "transactionDate": "Transaction Date",
+        "sendDate": "Date Sent",
+        "amount": "Amount",
+        "commentHistory": "Comment History",
+        "personalInfoUpdateSuccess": "Personal information has been updated",
+        "passwordUpdateSuccess": "Password has been changed",
+        "supportTickets": "Support Tickets",
+        "viewAttachment": "View Attachment",
+        "noAttachment": "No Attachment",
+        "noTickets": "No support tickets found",
+        "noSupportTickets": "No support tickets yet",
+        "ticketStatus": {
+            "Pending": "Pending",
+            "Resolved": "Resolved",
+            "InProgress": "In Progress",
+            "Rejected": "Rejected",
+            "Open": "Open"
+        },
+        "ticketTable": {
+            "orderNumber": "No.",
+            "responseFromTNDT": "Response from TNDT",
+            "attachment": "Attachment"
+        },
+        "registerHistory": {
+            "title": "Registration History",
+            "stt": "No.",
+            "type": "Registration Type",
+            "shop": "Shop Registration",
+            "tourGuide": "Tour Guide Registration",
+            "submittedAt": "Submitted At",
+            "status": "Status",
+            "status_approved": "Approved",
+            "status_pending": "Pending",
+            "status_rejected": "Rejected",
+            "response": "Response"
+        },
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "role": "Role"
+    },
+    "footer": {
+        "companyName": "Vi Vu Tour",
+        "description": "Explore Vietnam's beauty in one day with high-quality tours, professional guides, and memorable experiences.",
+        "tours": {
+            "hanoi": "Hanoi",
+            "hoChiMinh": "Ho Chi Minh City",
+            "daNang": "Da Nang",
+            "nhaTrang": "Nha Trang",
+            "phuQuoc": "Phu Quoc"
+        },
+        "services": {
+            "dayTours": "Day Tours",
+            "multiDayTours": "Multi-day Tours",
+            "privateTours": "Private Tours",
+            "groupTours": "Group Tours",
+            "customTours": "Custom Tours"
+        },
+        "contact": {
+            "address": "123 ABC Street, XYZ District, Tay Ninh City",
+            "phone": "+84 123 456 789",
+            "email": "info@tayninhtravel.com"
+        },
+        "language": "Language"
+    },
+    "contact": {
+        "submitSuccess": "Thank you for contacting us! We will respond as soon as possible."
+    },
+    "support": {
+        "title": "Contact Support",
+        "subtitle": "We are here to help you 24/7",
+        "phone": "Phone",
+        "email": "Email",
+        "workingHours": "Working Hours",
+        "workingHoursContent": "Mon - Fri: 8:00 AM - 5:00 PM\nSat - Sun: 8:00 AM - 12:00 PM",
+        "address": "Address",
+        "addressContent": "123 ABC Street, XYZ Ward, Tay Ninh City, Tay Ninh Province",
+        "formTitle": "Send Support Request",
+        "formSubtitle": "Fill in the form below and we will get back to you as soon as possible",
+        "mapTitle": "Our Location",
+        "submitSuccess": "Thank you for your message. We will contact you soon.",
+        "loginRequired": "Please login to submit a support request",
+        "hint": "All fields marked with * are required",
+        "loginModal": {
+            "title": "Login Required",
+            "content": "You need to login to submit a support request.",
+            "loginButton": "Login Now",
+            "registerButton": "Create Account"
+        },
+        "form": {
+            "title": "Title",
+            "titleRequired": "Please enter a title",
+            "content": "Message",
+            "contentRequired": "Please enter your message",
+            "attachment": "Attachment",
+            "attachmentHint": "Accept file formats: .pdf, .doc, .docx, .jpg, .png (max 5MB)",
+            "uploadButton": "Upload File",
+            "submit": "Send Message"
+        },
+        "ticketParams": {
+            "title": "Title",
+            "content": "Content",
+            "file": "File"
+        },
+        "contactInfo": {
+            "title": "Contact Information",
+            "mapTitle": "Our Location",
+            "address": "Address",
+            "phone": "Phone",
+            "email": "Email",
+            "workingHours": "Working Hours"
+        }
+    },
+    "blogger": {
+        "header": {
+            "title": "Blogger Dashboard"
+        },
+        "sidebar": {
+            "title": "Blogger",
+            "dashboard": "Dashboard",
+            "myBlogs": "My Blogs",
+            "createBlog": "Create Blog",
+            "myInfo": "My Info",
+            "role": "Blogger",
+            "editProfile": "Edit Profile",
+            "settings": "Settings",
+            "backToSite": "Back to Site",
+            "logout": "Logout"
+        },
+        "dashboard": {
+            "title": "Blogger Dashboard",
+            "createNew": "Create New Post",
+            "stats": {
+                "totalPosts": "Total Posts",
+                "acceptedPosts": "Accepted",
+                "pendingPosts": "Pending",
+                "rejectedPosts": "Rejected",
+                "totalComments": "Total Comments",
+                "totalLikes": "Total Likes"
+            },
+            "recentPosts": "Recent Posts",
+            "table": {
+                "title": "Title",
+                "status": "Status",
+                "comments": "Comments",
+                "likes": "Likes",
+                "createdAt": "Created At",
+                "actions": "Actions"
+            },
+            "status": {
+                "pending": "Pending",
+                "accepted": "Accepted",
+                "rejected": "Rejected"
+            },
+            "fetchError": "Failed to load dashboard data"
+        },
+        "myBlogs": {
+            "title": "My Blogs",
+            "createNew": "Create New Post",
+            "searchPlaceholder": "Search by title or content...",
+            "table": {
+                "title": "Title",
+                "status": "Status",
+                "likes": "Likes",
+                "comments": "Comments",
+                "updatedAt": "Updated At",
+                "actions": "Actions"
+            },
+            "status": {
+                "pending": "Pending",
+                "accepted": "Accepted",
+                "rejected": "Rejected"
+            },
+            "noData": "No posts yet",
+            "confirmDelete": "Delete Post",
+            "confirmDeleteDesc": "Are you sure you want to delete this post? This action cannot be undone.",
+            "messages": {
+                "deleteSuccess": "Post deleted successfully",
+                "deleteError": "Failed to delete post",
+                "fetchError": "Failed to load posts"
+            }
+        },
+        "createBlog": {
+            "title": "Create New Post",
+            "preview": "Preview",
+            "saveDraft": "Save Draft",
+            "publish": "Publish",
+            "form": {
+                "title": "Title",
+                "titlePlaceholder": "Enter post title...",
+                "excerpt": "Excerpt",
+                "excerptPlaceholder": "Enter a short summary of the post...",
+                "content": "Content",
+                "contentPlaceholder": "Write your post content...",
+                "category": "Category",
+                "categoryPlaceholder": "Select category",
+                "tags": "Tags",
+                "tagsPlaceholder": "Enter tag and press Enter to add..."
+            },
+            "sidebar": {
+                "featured": "Featured Image",
+                "uploadImage": "Upload Image",
+                "uploadFiles": "Upload Files",
+                "files": "Files",
+                "category": "Category",
+                "selectCategory": "Select category",
+                "tags": "Tags",
+                "addTag": "Add tag"
+            },
+            "validation": {
+                "titleRequired": "Please enter title",
+                "titleMaxLength": "Title cannot exceed 200 characters",
+                "excerptRequired": "Please enter excerpt",
+                "excerptMaxLength": "Excerpt cannot exceed 500 characters",
+                "categoryRequired": "Please select category",
+                "contentRequired": "Please enter content"
+            },
+            "messages": {
+                "success": "Post created successfully",
+                "error": "Failed to create post"
+            }
+        },
+        "editBlog": {
+            "title": "Edit Post",
+            "notFound": "Post not found",
+            "status": "Post Information",
+            "currentStatus": "Current Status",
+            "comments": "Comments",
+            "likes": "Likes",
+            "lastUpdated": "Last Updated",
+            "messages": {
+                "success": "Post updated successfully",
+                "error": "Failed to update post",
+                "loadError": "Failed to load post",
+                "invalidId": "Invalid post ID"
+            }
+        },
+        "myInfo": {
+            "title": "My Information",
+            "personalInfo": "Personal Information",
+            "changePassword": "Change Password"
+        }
+    },
+    "blog": {
+        "of": "of",
+        "headerTitle": "Tay Ninh Travel Blog",
+        "headerDesc": "Discover stories, experiences, and useful information about Tay Ninh",
+        "searchPlaceholder": "Search blog posts...",
+        "searchButton": "Search",
+        "byAuthor": "By {{author}}",
+        "likes": "likes",
+        "comments": "comments",
+        "sortNewest": "Newest",
+        "sortOldest": "Oldest",
+        "sortAtoZ": "A-Z",
+        "sortZtoA": "Z-A",
+        "totalPosts": "Posts",
+        "paginationInfo": "Page info",
+        "noPostsFound": "No blog posts found"
+    },
+    "tourGuide": {
+        "sidebar": {
+            "dashboard": "Dashboard",
+            "invitations": "Invitations",
+            "schedule": "Schedule",
+            "profile": "Profile",
+            "settings": "Settings",
+            "logout": "Logout"
+        },
+        "dashboard": {
+            "title": "Tour Guide Dashboard",
+            "welcome": "Welcome back! Here's an overview of your invitations and activities.",
+            "stats": {
+                "pendingInvitations": "Pending Invitations",
+                "acceptedInvitations": "Accepted",
+                "acceptanceRate": "Acceptance Rate",
+                "totalInvitations": "Total Invitations"
+            },
+            "pendingInvitations": "Pending Invitations",
+            "performance": "Performance",
+            "quickActions": "Quick Actions",
+            "viewAllInvitations": "View All Invitations",
+            "viewSchedule": "View Schedule",
+            "updateProfile": "Update Profile"
+        },
+        "invitations": {
+            "title": "Tour Invitations",
+            "tabs": {
+                "all": "All",
+                "pending": "Pending",
+                "accepted": "Accepted",
+                "rejected": "Rejected",
+                "expired": "Expired"
+            },
+            "actions": {
+                "accept": "Accept",
+                "reject": "Reject",
+                "viewDetails": "View Details"
+            },
+            "status": {
+                "pending": "Pending",
+                "accepted": "Accepted",
+                "rejected": "Rejected",
+                "expired": "Expired"
+            },
+            "modals": {
+                "acceptTitle": "Accept Invitation",
+                "rejectTitle": "Reject Invitation",
+                "acceptMessage": "Acceptance message (optional)",
+                "rejectionReason": "Rejection reason (required)"
+            }
+        },
+        "profile": {
+            "title": "Tour Guide Profile",
+            "personalInfo": "Personal Information",
+            "skills": "Skills and Expertise",
+            "experience": "Experience",
+            "languages": "Languages"
+        },
+        "schedule": {
+            "title": "Tour Guide Schedule",
+            "todaySchedule": "Today's Schedule",
+            "upcomingTours": "Upcoming Tours",
+            "eventDetails": "Event Details"
+        }
+    },
+    "tourCompany": {
+        "sidebar": {
+            "dashboard": "Dashboard",
+            "tourTemplates": "Tour Templates",
+            "tours": "Tours Management",
+            "transactions": "Transaction History",
+            "reviews": "Review History",
+            "revenue": "Revenue Dashboard",
+            "profile": "Profile",
+            "backToSite": "Back to Site",
+            "logout": "Logout"
+        },
+        "dashboard": {
+            "title": "Tour Company Dashboard",
+            "overview": "Tour company operations overview",
+            "stats": {
+                "totalTours": "Total Tours",
+                "totalBookings": "Total Bookings",
+                "totalRevenue": "Total Revenue",
+                "avgRating": "Average Rating"
+            },
+            "charts": {
+                "revenueTitle": "Monthly Revenue",
+                "popularToursTitle": "Popular Tours"
+            },
+            "recentActivities": {
+                "title": "Recent Activities",
+                "newBooking": "New Booking",
+                "newReview": "New Review",
+                "tourCreated": "Tour Created"
+            }
+        },
+        "tourTemplates": {
+            "title": "Tour Templates Management",
+            "searchPlaceholder": "Search by name, tour type",
+            "addButton": "Add New Template",
+            "columns": {
+                "name": "Template Name",
+                "tourType": "Tour Type",
+                "route": "Route",
+                "ticketQuantity": "Ticket Quantity",
+                "usageCount": "Usage Count",
+                "actions": "Actions"
+            },
+            "actions": {
+                "view": "View",
+                "edit": "Edit",
+                "delete": "Delete"
+            },
+            "form": {
+                "addTitle": "Add New Template",
+                "editTitle": "Edit Template",
+                "basicInfo": "Basic Information",
+                "timeAvailable": "Available Time",
+                "images": "Images",
+                "itinerary": "Itinerary",
+                "additionalInfo": "Additional Information",
+                "fields": {
+                    "name": {
+                        "label": "Template Name",
+                        "placeholder": "Enter template tour name",
+                        "required": "Please enter template name"
+                    },
+                    "startLocation": {
+                        "label": "Start Location",
+                        "placeholder": "E.g: Ho Chi Minh City",
+                        "required": "Please enter start location"
+                    },
+                    "endLocation": {
+                        "label": "End Location",
+                        "placeholder": "E.g: Ba Den Mountain, Tay Ninh",
+                        "required": "Please enter end location"
+                    },
+                    "tourType": {
+                        "label": "Tour Type",
+                        "placeholder": "Select tour type",
+                        "required": "Please select tour type",
+                        "options": {
+                            "mountain": "Mountain",
+                            "spiritual": "Spiritual",
+                            "cultural": "Cultural",
+                            "ecological": "Ecological",
+                            "historical": "Historical",
+                            "experience": "Experience"
+                        }
+                    },
+                    "ticketQuantity": {
+                        "label": "Ticket Quantity",
+                        "placeholder": "Available ticket quantity",
+                        "required": "Please enter ticket quantity"
+                    },
+                    "availableDays": {
+                        "label": "Weekdays",
+                        "required": "Please select at least 1 day",
+                        "options": {
+                            "monday": "Monday",
+                            "tuesday": "Tuesday",
+                            "wednesday": "Wednesday",
+                            "thursday": "Thursday",
+                            "friday": "Friday",
+                            "saturday": "Saturday",
+                            "sunday": "Sunday"
+                        }
+                    },
+                    "availableDates": {
+                        "label": "Days of Month",
+                        "placeholder": "Select days of month",
+                        "required": "Please select at least 1 day"
+                    },
+                    "availableMonths": {
+                        "label": "Months of Year",
+                        "placeholder": "Select months of year",
+                        "required": "Please select at least 1 month"
+                    },
+                    "images": {
+                        "label": "Tour Images",
+                        "uploadText": "Upload",
+                        "required": "Please upload at least 1 image"
+                    },
+                    "itinerary": {
+                        "label": "Itinerary",
+                        "checkpoint": "Time",
+                        "activity": "Activity",
+                        "checkpointPlaceholder": "Select time",
+                        "activityPlaceholder": "Describe activity at this time",
+                        "checkpointRequired": "Select time",
+                        "activityRequired": "Enter activity",
+                        "addButton": "Add Itinerary Point"
+                    },
+                    "description": {
+                        "label": "Tour Description",
+                        "placeholder": "Detailed tour description, destinations, experiences...",
+                        "required": "Please enter tour description"
+                    },
+                    "guideInfo": {
+                        "label": "Guide Information",
+                        "placeholder": "Guide information: experience, expertise, languages...",
+                        "required": "Please enter guide information"
+                    }
+                },
+                "buttons": {
+                    "add": "Add",
+                    "update": "Update",
+                    "cancel": "Cancel"
+                }
+            },
+            "messages": {
+                "deleteConfirm": "Are you sure you want to delete this template?",
+                "deleteSuccess": "Template deleted successfully",
+                "addSuccess": "Template added successfully",
+                "updateSuccess": "Template updated successfully"
+            },
+            "view": {
+                "startLocation": "Start Location",
+                "endLocation": "End Location",
+                "tourType": "Tour Type",
+                "ticketQuantity": "Ticket Quantity",
+                "timeAvailable": "Available Time",
+                "days": "Days",
+                "dates": "Dates",
+                "months": "Months",
+                "itinerary": "Itinerary",
+                "description": "Description",
+                "guideInfo": "Guide Information"
+            }
+        },
+        "tours": {
+            "title": "Tours Management",
+            "searchPlaceholder": "Search by tour name",
+            "addButton": "Add New Tour",
+            "columns": {
+                "name": "Tour Name",
+                "template": "Template",
+                "date": "Departure Date",
+                "price": "Price",
+                "available": "Available",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "status": {
+                "active": "Active",
+                "full": "Full",
+                "cancelled": "Cancelled"
+            }
+        },
+        "transactions": {
+            "title": "Transaction History",
+            "searchPlaceholder": "Search by transaction ID",
+            "columns": {
+                "transactionId": "Transaction ID",
+                "customerName": "Customer Name",
+                "tourName": "Tour Name",
+                "amount": "Amount",
+                "commission": "Commission",
+                "date": "Transaction Date",
+                "status": "Status"
+            },
+            "status": {
+                "completed": "Completed",
+                "pending": "Pending",
+                "cancelled": "Cancelled"
+            },
+            "summary": {
+                "title": "Summary",
+                "totalRevenue": "Total Revenue",
+                "totalCommission": "Total Commission",
+                "totalTransactions": "Total Transactions"
+            }
+        },
+        "reviews": {
+            "title": "Review History",
+            "searchPlaceholder": "Search by tour name, customer",
+            "columns": {
+                "customerName": "Customer Name",
+                "tourName": "Tour Name",
+                "rating": "Rating",
+                "comment": "Comment",
+                "date": "Review Date",
+                "actions": "Actions"
+            },
+            "actions": {
+                "reply": "Reply",
+                "view": "View Details"
+            },
+            "stats": {
+                "title": "Review Statistics",
+                "averageRating": "Average Rating",
+                "totalReviews": "Total Reviews",
+                "fiveStars": "5 Stars",
+                "fourStars": "4 Stars",
+                "threeStars": "3 Stars",
+                "twoStars": "2 Stars",
+                "oneStar": "1 Star"
+            }
+        },
+        "revenue": {
+            "title": "Revenue Dashboard",
+            "stats": {
+                "totalRevenue": "Total Revenue",
+                "monthlyRevenue": "Monthly Revenue",
+                "commission": "Commission",
+                "bookingCount": "Booking Count"
+            },
+            "charts": {
+                "revenueChart": "Revenue Chart",
+                "topTours": "Top Tours",
+                "revenueBreakdown": "Revenue Breakdown"
+            }
+        },
+        "common": {
+            "actions": {
+                "add": "Add",
+                "edit": "Edit",
+                "delete": "Delete",
+                "view": "View",
+                "search": "Search",
+                "filter": "Filter",
+                "export": "Export",
+                "import": "Import",
+                "save": "Save",
+                "cancel": "Cancel",
+                "confirm": "Confirm",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "status": {
+                "active": "Active",
+                "inactive": "Inactive",
+                "pending": "Pending",
+                "completed": "Completed",
+                "cancelled": "Cancelled"
+            },
+            "time": {
+                "today": "Today",
+                "yesterday": "Yesterday",
+                "thisWeek": "This Week",
+                "thisMonth": "This Month",
+                "thisYear": "This Year",
+                "allTime": "All Time"
+            }
+        }
+    },
+    "skills": {
+        "title": "Tour Guide Skills",
+        "label": "Tour Guide Skills",
+        "category": {
+            "languages": "Languages",
+            "knowledge": "Knowledge Areas",
+            "activity": "Activity Skills",
+            "special": "Special Skills"
+        },
+        "Vietnamese": "Vietnamese",
+        "English": "English",
+        "Chinese": "Chinese (Mandarin)",
+        "Japanese": "Japanese",
+        "Korean": "Korean",
+        "French": "French",
+        "German": "German",
+        "Russian": "Russian",
+        "History": "History",
+        "Culture": "Culture",
+        "Religion": "Religion",
+        "Cuisine": "Cuisine",
+        "Geography": "Geography",
+        "Nature": "Nature",
+        "Arts": "Arts",
+        "Architecture": "Architecture",
+        "MountainClimbing": "Mountain climbing",
+        "Trekking": "Trekking",
+        "Photography": "Photography",
+        "WaterSports": "Water sports",
+        "Cycling": "Cycling",
+        "Camping": "Camping",
+        "BirdWatching": "Bird watching",
+        "AdventureSports": "Adventure sports",
+        "FirstAid": "First aid",
+        "Driving": "Driving",
+        "Cooking": "Cooking",
+        "Meditation": "Meditation guidance",
+        "TraditionalMassage": "Traditional massage"
+    },
+    "chatbot": {
+        "title": "TNDT AI Assistant",
+        "greeting": "Hello! How can I help you today?",
+        "inputPlaceholder": "Type a message...",
+        "errors": {
+            "loginRequired": "You need to login to use chat.",
+            "cannotLoadSessions": "Cannot load chat sessions.",
+            "cannotCreateSession": "Cannot create new chat session.",
+            "createSessionError": "An error occurred while creating chat session.",
+            "cannotSendMessage": "Cannot send message. Please try again.",
+            "sendMessageError": "An error occurred while sending message."
+        },
+        "sessions": {
+            "history": "Chat History",
+            "noSessions": "No chat sessions yet",
+            "delete": "Delete Chat Session",
+            "deleteConfirm": "Are you sure you want to delete the chat session \"{title}\"?",
+            "deleteWarning": "This action cannot be undone.",
+            "edit": "Rename Chat Session",
+            "editPrompt": "Enter new name for the chat session:",
+            "editPlaceholder": "Enter new name..."
+        },
+        "chatTypes": {
+            "tour": "Tour Consultation",
+            "product": "Product Consultation",
+            "tayninh": "Tay Ninh Information",
+            "default": "TNDT AI Chat",
+            "selectType": "Select consultation type:",
+            "descriptions": {
+                "tour": "Tour advice, pricing, bookings",
+                "product": "Local specialty shopping advice",
+                "tayninh": "Local history and culture"
+            }
+        },
+        "actions": {
+            "creating": "Creating...",
+            "startChat": "Start chat",
+            "sendMessage": "Send message",
+            "closeChat": "Close chat",
+            "newChat": "New chat",
+            "rename": "Rename",
+            "delete": "Delete",
+            "cancel": "Cancel",
+            "save": "Save"
+        },
+        "tooltips": {
+            "sessionHistory": "Chat history",
+            "newChat": "New chat",
+            "closeChat": "Close chat",
+            "rename": "Rename",
+            "delete": "Delete",
+            "sendMessage": "Send message",
+            "startChat": "Start chat"
+        },
+        "placeholders": {
+            "typeMessage": "Type a message...",
+            "startChatMessage": "Type a message to start ...",
+            "newName": "Enter new name..."
+        },
+        "welcome": {
+            "title": "Welcome to TNDT AI Assistant!",
+            "instructions": "To start chatting, please:",
+            "steps": {
+                "selectType": "Select the appropriate consultation type above",
+                "startChat": "Click \"Start chat\" button or use the + icon in the header",
+                "languageNote": "Currently we only support Vietnamese language"
+            }
+        },
+        "conversation": {
+            "startTitle": "Start conversation",
+            "startMessage": "Type a message to start chatting with AI assistant."
+        },
+        "topicRedirect": {
+            "confirmMessage": "{suggestion}\n\nDo you want to create a new chat session?"
+        }
+    },
+    "bookingHistory": {
+        "title": "Booking History",
+        "description": "Manage and track your tour bookings",
+        "searchPlaceholder": "Search by tour name, tour company...",
+        "filterByStatus": "Filter by status",
+        "showCancelled": "Show cancelled",
+        "total": "Total",
+        "bookings": "bookings",
+        "viewDetails": "Details",
+        "guide": "Guide",
+        "columns": {
+            "bookingCode": "Payment code",
+            "tourCompanyName": "Tour Company",
+            "tourName": "Tour Name",
+            "tourDate": "Tour Date",
+            "guestCount": "Guest Count",
+            "totalAmount": "Total Amount",
+            "status": "Status",
+            "bookingDate": "Booking Date",
+            "actions": "Actions"
+        },
+        "statuses": {
+            "completed": "Completed",
+            "cancelled": "Cancelled",
+            "confirmed": "Confirmed",
+            "pending": "Pending"
+        }
+    },
+    "commentHistory": {
+        "title": "Review History",
+        "description": "Manage and view your tour reviews",
+        "noReviews": "You have no reviews yet",
+        "columns": {
+            "tourName": "Tour Name",
+            "rating": "Rating",
+            "comment": "Comment",
+            "date": "Review Date"
+        }
+    },
+    "supportTicketHistory": {
+        "title": "Support Request History",
+        "description": "Track your support requests and their processing status"
+    },
+    "registerHistory": {
+        "title": "Registration History",
+        "description": "Track your shop and tour guide registration status"
+    },
+    "orderHistory": {
+        "title": "Order History",
+        "description": "Manage and track your specialty product orders",
+        "orderNumber": "Order Number",
+        "shopName": "Shop",
+        "itemCount": "Item Count",
+        "itemCountText": "items",
+        "totalAmount": "Total Amount",
+        "orderStatus": "Order Status",
+        "paymentStatus": "Payment",
+        "orderDate": "Order Date",
+        "actions": "Actions",
+        "viewDetail": "Detail",
+        "detailModalTitle": "Order Details",
+        "status": "Status",
+        "payment": "Payment",
+        "paymentMethod": "Payment Method",
+        "deliveryDate": "Delivery Date",
+        "shippingAddress": "Shipping Address",
+        "notes": "Notes",
+        "productOrdered": "Products Ordered",
+        "productName": "Product",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Item Total",
+        "grandTotal": "Grand Total",
+        "paginationText": "of",
+        "paginationTotal": "orders",
+        "loadingError": "Unable to load order history",
+        "searchPlaceholder": "Search by order number, shop name...",
+        "filterByStatus": "Filter by status",
+        "showCancelled": "Show cancelled",
+        "refresh": "Refresh",
+        "total": "Total",
+        "errorOccurred": "An error occurred",
+        "tryAgain": "Try Again",
+        "noOrders": "You have no orders yet",
+        "close": "Close",
+        "orderInformation": "Order Information",
+        "deliveryStatus": "Delivery Status",
+        "delivered": "Delivered",
+        "notDelivered": "Not Delivered",
+        "review": "Review",
+        "statuses": {
+            "paid": "Paid",
+            "notDelivered": "Not Delivered",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled",
+            "unpaid": "Unpaid"
+        },
+        "paymentStatuses": {
+            "unpaid": "Unpaid",
+            "paid": "Paid",
+            "refunded": "Refunded"
+        }
+    },
+    "tour": {
+        "notFoundTitle": "Cannot load tour information",
+        "notFoundText": "Tour does not exist or has been deleted",
+        "detailTitle": "Tour Details",
+        "route": "Route",
+        "duration": "Duration",
+        "days": "days",
+        "flexible": "Flexible",
+        "reviews": "reviews",
+        "scheduleDetail": "Detailed Schedule",
+        "noScheduleDetail": "No detailed schedule",
+        "infoTitle": "Tour Information",
+        "included": "Included",
+        "guide": "Professional guide",
+        "insurance": "Travel insurance",
+        "transport": "Transportation as per program",
+        "notIncluded": "Not included",
+        "personalCost": "Personal expenses",
+        "extraDrink": "Drinks outside the program",
+        "guideTip": "Tip for guide",
+        "reviewTitle": "Review",
+        "writeReview": "Write review",
+        "contact": "Contact",
+        "perPerson": "/ person",
+        "onlyLeft": "Only {{count}} spots left!",
+        "full": "Full",
+        "maxGuests": "Max guests",
+        "booked": "Booked",
+        "availableSpots": "Available spots",
+        "startDate": "Start date",
+        "bookNow": "Book now",
+        "needLogin": "Login required to book",
+        "active": "Active",
+        "inactive": "Inactive",
+        "unitPerson": "person",
+        "unitSpot": "spot",
+        "location": {
+            "nuiBaDen": "Ba Den Mountain",
+            "toaThanh": "Tay Ninh Holy See",
+            "hoDauTieng": "Dau Tieng Lake",
+            "thacGiangDien": "Giang Dien Waterfall",
+            "vuonQuocGiaLoGo": "Lo Go-Xa Mat National Park"
+        },
+        "search": {
+            "destinationPlaceholder": "Select destination",
+            "allLocations": "All locations",
+            "datePlaceholder": "Select departure date",
+            "keywordPlaceholder": "Search tours...",
+            "searchButton": "Search"
+        },
+        "found": "Tours found",
+        "toal": "Total tours"
+    }
+}

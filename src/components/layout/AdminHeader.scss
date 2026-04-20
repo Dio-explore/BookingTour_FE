@@ -1,0 +1,88 @@
+.admin-header {
+  background-color: #fff;
+  padding: 0;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 24px;
+  }
+  
+  .page-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+    .notification-bell {
+      .ant-btn {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+      }
+    }
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-dropdown {
+    cursor: pointer;
+    
+    .username {
+      margin-left: 8px;
+      
+      @media (max-width: 576px) {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Dark mode styles for admin header */
+body.dark-mode {
+  .admin-header {
+    background-color: #141414;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    
+    .page-title {
+      color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .user-dropdown {
+      .username {
+        color: rgba(255, 255, 255, 0.85);
+      }
+    }
+    
+    .header-actions {
+      .notification-bell {
+        .ant-btn {
+          color: rgba(255, 255, 255, 0.85);
+          
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+          }
+        }
+      }
+    }
+  }
+}

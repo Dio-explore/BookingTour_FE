@@ -1,0 +1,119 @@
+.hero-section {
+  position: relative;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 24px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #fff, #79eac0);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.2;
+      
+      // Add blur shadow effect around text
+      filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3)) 
+              drop-shadow(0 0 40px rgba(121, 234, 192, 0.4));
+
+      @media (max-width: 768px) {
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: rgba(255, 255, 255, 0.95);
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+      font-weight: 500;
+      
+      // Add subtle blur glow around subtitle
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+        max-width: 90%;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 16px;
+      }
+    }
+
+    // Add blur effect around search bar area
+    .search-bar {
+      filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.3)) 
+              drop-shadow(0 0 30px rgba(255, 255, 255, 0.1));
+    }
+  }
+}
+
+// Responsive styles
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    min-height: 600px;
+
+    .hero-content {
+      padding: 80px 20px;
+    }
+  }
+}
+
+// Dark mode support
+body.dark-mode {
+  .hero-section {
+    .hero-content {
+      h1 {
+        background: linear-gradient(135deg, #79eac0, #fff);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        // Enhance blur effect for dark mode
+        filter: drop-shadow(0 0 25px rgba(121, 234, 192, 0.5)) 
+                drop-shadow(0 0 50px rgba(255, 255, 255, 0.3));
+      }
+
+      p {
+        color: rgba(255, 255, 255, 0.95);
+        
+        // Enhance blur effect for dark mode
+        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
+      }
+    }
+  }
+}
