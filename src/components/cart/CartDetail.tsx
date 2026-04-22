@@ -169,7 +169,7 @@ const CartDetail = () => {
     }
 
     const handleContinueShopping = () => {
-        navigate('/shop')
+        navigate('/')
     }
 
     if (items.length === 0) {

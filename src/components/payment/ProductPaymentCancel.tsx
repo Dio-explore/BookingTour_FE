@@ -104,7 +104,7 @@ const ProductPaymentCancel: React.FC = () => {
     };
 
     const handleContinueShopping = () => {
-        navigate('/shop');
+        navigate('/');
     };
 
     const handleRetryPayment = () => {

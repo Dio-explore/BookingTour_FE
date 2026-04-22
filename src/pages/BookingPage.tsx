@@ -29,12 +29,12 @@ import {
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import LoginModal from "../components/auth/LoginModal";
-import { useEnhancedPayment } from "../services/enhancedPaymentService";
 import { formatCurrency } from "../services/paymentService";
 import {
   calculateBookingPrice,
   checkTourAvailability,
   checkTourSlotCapacity,
+  CreateBookingResult,
   createTourBooking,
   CreateTourBookingRequest,
   getTourDetailsForBooking,
@@ -65,14 +65,12 @@ const BookingPage: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { isAuthenticated, token, user } = useAuthStore();
-  const { createPaymentLink } = useEnhancedPayment();
 
   const [form] = Form.useForm<BookingFormData>();
   const [currentStep, setCurrentStep] = useState(0);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [calculating, setCalculating] = useState(false);
-  const [paymentProcessing, setPaymentProcessing] = useState(false); // ✅ NEW: Prevent duplicate payment calls
 
   const [tourDetails, setTourDetails] = useState<TourDetailsForBooking | null>(
     null
@@ -537,58 +535,25 @@ const BookingPage: React.FC = () => {
       const response = await createTourBooking(bookingRequest, token);
 
       if (response.success && response.data) {
-        message.success(
-          "Đặt tour thành công! Đang chuyển đến trang thanh toán..."
-        );
+        type BookingPayload = CreateBookingResult & {
+          checkoutUrl?: string;
+          data?: Partial<CreateBookingResult> & { checkoutUrl?: string };
+        };
 
-        // === ENHANCED PAYMENT SYSTEM (ONLY) ===
+        const bookingPayload = response.data as
+          | BookingPayload
+          | undefined;
 
-        // ✅ ENHANCED PAYMENT: Flexible approach theo plan BE với duplicate prevention
-        try {
-          // Prevent duplicate payment calls
-          if (paymentProcessing) {
-            return;
-          }
+        const bookingResult = bookingPayload?.data ?? bookingPayload;
+        const paymentUrl = bookingResult?.paymentUrl || bookingResult?.checkoutUrl;
 
-          setPaymentProcessing(true);
-
-          // Extract payment info từ backend response
-          const paymentRequest = {
-            // Primary: Use tourBookingId if available
-            tourBookingId: response.data?.bookingId,
-
-            // Fallback: Use bookingCode as identifier
-            bookingCode: response.data?.bookingCode,
-
-            // Amount: Try multiple sources
-            amount: priceCalculation?.finalPrice || 0,
-
-            description: `Tour Booking - ${
-              response.data?.bookingCode || "Individual QR System"
-            }`,
-          };
-
-          // Validate required fields
-          if (!paymentRequest.amount || paymentRequest.amount <= 0) {
-            throw new Error("Invalid payment amount");
-          }
-
-          if (!paymentRequest.tourBookingId && !paymentRequest.bookingCode) {
-            throw new Error("No booking identifier found");
-          }
-
-          // Create payment link
-          await createPaymentLink(paymentRequest);
-        } catch (enhancedError: any) {
-          console.error("Enhanced payment failed:", enhancedError);
-          message.error(
-            `Không thể tạo thanh toán: ${
-              enhancedError.message || "Lỗi không xác định"
-            }`
-          );
-        } finally {
-          setPaymentProcessing(false);
+        if (paymentUrl) {
+          message.success("Đặt tour thành công! Đang chuyển đến trang thanh toán...");
+          window.location.href = paymentUrl;
+          return;
         }
+
+        message.warning("Đặt tour thành công nhưng chưa nhận được link thanh toán. Vui lòng kiểm tra lịch sử đặt tour.");
       } else {
         message.error(response.message || "Có lỗi xảy ra khi đặt tour");
       }
@@ -601,7 +566,6 @@ const BookingPage: React.FC = () => {
       );
     } finally {
       setSubmitting(false);
-      setPaymentProcessing(false);
     }
   };
 

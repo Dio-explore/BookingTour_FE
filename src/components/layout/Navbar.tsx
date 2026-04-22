@@ -6,13 +6,10 @@ import {
   MenuOutlined,
   HomeOutlined,
   AppstoreOutlined,
-  ShoppingOutlined,
-  ShopOutlined,
   InfoCircleOutlined,
   PhoneOutlined,
   ShoppingCartOutlined,
   UserOutlined,
-  ReadOutlined,
   LogoutOutlined,
   SettingOutlined,
   DashboardOutlined
@@ -109,21 +106,6 @@ const Navbar = () => {
       key: '/things-to-do',
       icon: <AppstoreOutlined />,
       label: <Link to="/things-to-do">{t('navigation.tours')}</Link>
-    },
-    {
-      key: '/shop',
-      icon: <ShoppingOutlined />,
-      label: <Link to="/shop">{t('navigation.shop')}</Link>
-    },
-    {
-      key: '/shops',
-      icon: <ShopOutlined />,
-      label: <Link to="/shops">{t('navigation.shops')}</Link>
-    },
-    {
-      key: '/blog',
-      icon: <ReadOutlined />,
-      label: <Link to="/blog">{t('navigation.blog')}</Link>
     },
     {
       key: '/about',

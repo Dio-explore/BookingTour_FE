@@ -209,7 +209,7 @@ const UnifiedPaymentSuccess: React.FC = () => {
         if (paymentData?.type === 'tour') {
             navigate('/things-to-do');
         } else {
-            navigate('/shop');
+            navigate('/');
         }
     };
 

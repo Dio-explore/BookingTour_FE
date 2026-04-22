@@ -15,7 +15,7 @@ const OrderSuccess = () => {
                 title={t('checkout.orderSuccess')}
                 subTitle={t('checkout.orderSuccessDescription')}
                 extra={[
-                    <Button type="primary" key="shop" onClick={() => navigate('/shop')}>
+                    <Button type="primary" key="shop" onClick={() => navigate('/')}>
                         {t('cart.continueShopping')}
                     </Button>,
                     <Button key="home" onClick={() => navigate('/')}>

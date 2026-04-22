@@ -174,8 +174,7 @@ const OrderHistory: React.FC<OrderHistoryProps> = ({ data }) => {
     // Chuyển hướng sang trang chi tiết sản phẩm khi nhấn nút đánh giá
     const handleReview = (order: Order) => {
         if (order.items && order.items.length > 0) {
-            const productId = order.items[0].id;
-            navigate(`/shop/product/${productId}`);
+            navigate('/');
         }
     };
 

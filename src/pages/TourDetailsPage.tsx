@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import {
     Card,
     Button,
@@ -343,24 +343,12 @@ const TourDetailsPage: React.FC = () => {
                                                                     <Text>{item.activity}</Text>
                                                                     {item.specialtyShop && (
                                                                         <div style={{ marginTop: 4 }}>
-                                                                            {item.specialtyShopId ? (
-                                                                                <Link
-                                                                                    to={`/shop/${item.specialtyShopId}`}
-                                                                                    style={{ color: '#1677ff', textDecoration: 'underline', cursor: 'pointer', fontWeight: 500 }}
-                                                                                >
-                                                                                    📍 {item.specialtyShop.shopName}
-                                                                                    {item.specialtyShop.location &&
-                                                                                        ` - ${item.specialtyShop.location}`
-                                                                                    }
-                                                                                </Link>
-                                                                            ) : (
-                                                                                <span style={{ color: '#888' }}>
-                                                                                    📍 {item.specialtyShop.shopName}
-                                                                                    {item.specialtyShop.location &&
-                                                                                        ` - ${item.specialtyShop.location}`
-                                                                                    }
-                                                                                </span>
-                                                                            )}
+                                                                            <span style={{ color: '#888' }}>
+                                                                                📍 {item.specialtyShop.shopName}
+                                                                                {item.specialtyShop.location &&
+                                                                                    ` - ${item.specialtyShop.location}`
+                                                                                }
+                                                                            </span>
                                                                         </div>
                                                                     )}
                                                                 </div>

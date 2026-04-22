@@ -7,7 +7,6 @@ import {
   DashboardOutlined,
   UserOutlined,
   AppstoreOutlined,
-  ReadOutlined,
   HomeOutlined,
   LogoutOutlined,
   CustomerServiceOutlined,
@@ -99,11 +98,6 @@ const AdminSidebar = () => {
       key: "/admin/tours",
       icon: <AppstoreOutlined />,
       label: <Link to="/admin/tours">{t("admin.sidebar.tours")}</Link>,
-    },
-    {
-      key: "/admin/blogs",
-      icon: <ReadOutlined />,
-      label: <Link to="/admin/blogs">{t("admin.sidebar.blogs")}</Link>,
     },
     {
       key: "/admin/support-tickets",

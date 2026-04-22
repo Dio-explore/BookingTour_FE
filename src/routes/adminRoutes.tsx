@@ -1,6 +1,5 @@
 import { AdminWithdrawalManagement } from "@/components/admin";
 import AdminRevenueDashboard from "@/pages/admin/AdminRevenueDashboard";
-import Blogs from "@/pages/admin/Blogs";
 import CVManagement from "@/pages/admin/CVManagement";
 import Dashboard from "@/pages/admin/Dashboard";
 import Orders from "@/pages/admin/Orders";
@@ -57,10 +56,6 @@ export const adminRoutes: RouteObject[] = [
       {
         path: "tours",
         element: <Tours />,
-      },
-      {
-        path: "blogs",
-        element: <Blogs />,
       },
       {
         path: "support-tickets",

@@ -5,8 +5,6 @@ import FeaturedTours from "../components/home/FeaturedTours";
 import HolidayTours from "../components/home/HolidayTours";
 import WhyChooseUs from "../components/home/WhyChooseUs";
 import FeaturedGuides from "../components/home/FeaturedGuides";
-import BestSellers from "../components/home/BestSellers";
-import BlogPosts from "../components/home/BlogPosts";
 import "./Home.scss";
 
 // const { t } = useTranslation()
@@ -19,8 +17,6 @@ const Home = () => {
         <TourismHighlights />
         <FeaturedTours />
         <HolidayTours />
-        <BlogPosts />
-        <BestSellers />
         <FeaturedGuides />
         <WhyChooseUs />
       </div>

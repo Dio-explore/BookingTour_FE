@@ -37,7 +37,7 @@ const CartDrawer = ({ visible, onClose }: CartDrawerProps) => {
 
   const handleContinueShopping = () => {
     onClose() // Đóng drawer trước
-    navigate('/shop') // Navigate đến trang shop
+    navigate('/') // Navigate về trang chủ
   }
 
   return (

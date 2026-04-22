@@ -408,7 +408,7 @@ const Checkout = () => {
                             <Title level={3}>{t('checkout.emptyCart')}</Title>
                             <Text>{t('checkout.emptyCartDescription')}</Text>
                             <div style={{ marginTop: 16 }}>
-                                <Button type="primary" size="large" onClick={() => navigate('/shop')}>
+                                <Button type="primary" size="large" onClick={() => navigate('/')}>
                                     {t('cart.continueShopping')}
                                 </Button>
                             </div>

@@ -176,7 +176,7 @@ const ProductPaymentSuccess: React.FC = () => {
     };
 
     const handleContinueShopping = () => {
-        navigate('/shop');
+        navigate('/');
     };
 
     const handlePrintOrder = () => {
